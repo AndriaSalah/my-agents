@@ -1,0 +1,2022 @@
+data:
+  connection:
+    aggregations[6]:
+      - attribute: price
+        label: Price
+        count: 3
+        options[3]{label,count,value}:
+          0-10000,24,0_10000
+          10000-20000,49,10000_20000
+          20000-30000,9,20000_30000
+      - attribute: category_uid
+        label: Category
+        count: 12
+        options[12]{label,count,value}:
+          Cookers,82,Mw==
+          Built-in Appliances,37,NzQ=
+          5 Burners Cookers,33,ODk=
+          5 Burners Cookers (90 cm),28,NDg=
+          Built-in Cooker Hob,18,NzU=
+          Built-in Oven,14,NzY=
+          4 Burners Cookers,12,ODg=
+          4 Burners Cookers (60 cm),8,NDY=
+          5 Burners Cookers (80 cm),5,NDc=
+          Built-in Hood,5,Nzc=
+          4 Burners Cookers (65 cm),3,ODc=
+          4 Burners Cookers (55 cm),1,NDU=
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,79,"1"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,81,"0"
+          Yes,1,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,74,"0"
+          Yes,8,"1"
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,0,"5431"
+          Black,25,"5432"
+          Silver,1,"5433"
+          Stainless,56,"5437"
+          Multiple,0,"5438"
+          Gray,0,"5519"
+    nodes[82]:
+      - id: 1067
+        name: Fresh Oven Built In Black 60 cm Air Fryer  - GEOFR60CMB
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500009653"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 17461.89
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-oven-built-in-black-60-cm-air-fryer-geofr60cmb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 16184.19
+            regular_price:
+              value: 16184.19
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Oven Built In Black 60 cm Air Fryer  - GEOFR60CMB
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 994
+        name: Fresh Oven Built In Black 60 cm  - HOFR60CMB
+        newFrom: "2023-11-02 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500010345"
+        special_from_date: "2024-02-29 00:00:00"
+        special_price: 16559.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-oven-built-in-black-60-cm-hofr60cmb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15348.2
+            regular_price:
+              value: 15348.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/u/built_in_black_2_nop.png"
+          label: Fresh Oven Built In Black 60 cm  - HOFR60CMB
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 993
+        name: Fresh Built-In Oven 60 c.m. - Air Fryer /HOFR60CMS
+        newFrom: "2023-11-02 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500009652"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 17461.89
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-built-in-oven-60-x-60-air-fryer-hofr60cms
+        price_range:
+          maximum_price:
+            final_price:
+              value: 16184.19
+            regular_price:
+              value: 16184.19
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Built-In Oven 60 c.m. - Air Fryer HOFR60CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 662
+        name: Fresh Gas Cooker Italiano Safety Cast Digital Fan 80x55
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500012094"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 15088
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-italiano-safety-cast-digital-fan-80-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13984
+            regular_price:
+              value: 13984
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_italiano_safety_cast_digital_fan_80x55.png"
+          label: Fresh Gas Cooker Italiano Safety Cast Digital Fan 80x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (80 cm),cooker-appliances/5-burners/5-burners-80-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 633
+        name: Fresh Built-In Oven 60 c.m. - TFT Control 12 Programs /GEOFR60CMS
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500008878"
+        special_from_date: "2023-10-18 00:00:00"
+        special_price: 21258.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-oven-built-in-stainless-control-12p-60-cm-tft-geofr60cms
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19703
+            regular_price:
+              value: 19703
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built_in_stainless_control_12p_60_cm_tft_-_geofr60cms.jpg"
+          label: Fresh Oven Built In Stainless Control 12P  60 cm  TFT - GEOFR60CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 542
+        name: Fresh Gas Cooker Italiano Cast Fan 80x55
+        newFrom: null
+        newTo: null
+        sku: "500003423"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12882.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-italiano-cast-fan-80-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12882.19
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_italiano_cast_fan_80x55.png"
+          label: Fresh Gas Cooker Italiano Cast Fan 80x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (80 cm),cooker-appliances/5-burners/5-burners-80-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 504
+        name: Fresh Gas Cooker Italiano Cast Digital Fan 80x55
+        newFrom: null
+        newTo: null
+        sku: "500004892"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13140.51
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-italiano-cast-digital-fan-80-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12179.01
+            regular_price:
+              value: 12179.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_italiano_cast_digital_fan_80x55.png"
+          label: Fresh Gas Cooker Italiano Cast Digital Fan 80x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (80 cm),cooker-appliances/5-burners/5-burners-80-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 485
+        name: Fresh Gas Cooker Built In Glass 60cm -  S2
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500009624"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 8437.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-gas-cooker-built-in-glass-60cm-s2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7820.4
+            regular_price:
+              value: 7820.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Built In Glass 60cm -  S2
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 404
+        name: Fresh Built-In Oven 60 c.m. Stainless Steel - Electric 7 Functions
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009647"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 15940.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-built-in-oven-60-x-60-cm-7-functions
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14774.4
+            regular_price:
+              value: 14774.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Built-In Oven 60 c.m. Stainless Steel - Electric 7 Functions\r\n"
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 402
+        name: Fresh Oven Built In Stainless 60 cm - HOFR60CMS
+        newFrom: null
+        newTo: null
+        sku: "500010343"
+        special_from_date: "2023-10-12 00:00:00"
+        special_price: 16559.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-oven-built-in-stainless-60-cm-hofr60cms
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15348.2
+            regular_price:
+              value: 15348.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built_in_stainless_60_cm_-_hofr60cms.jpg"
+          label: Fresh Oven Built In Stainless 60 cm - HOFR60CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 382
+        name: Fresh Gas Cooker Built In Glass -  HFR60CMGC1
+        newFrom: null
+        newTo: null
+        sku: "500009617"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 9130.69
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-hafr60cmms1-5
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8462.6
+            regular_price:
+              value: 8462.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/0/0/00_._2.png"
+          label: Fresh Gas Cooker Built In Glass -  HFR60CMGC1
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 341
+        name: Fresh Gas Cooker Plaza Cast Light 90x60
+        newFrom: null
+        newTo: null
+        sku: "500000885"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13985.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-plaza-cast-light-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12961.8
+            regular_price:
+              value: 12961.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_plaza_cast_light_90x60.png"
+          label: Fresh Gas Cooker Plaza Cast Light 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 326
+        name: Fresh Gas Cooker Italiano Cast 60x60
+        newFrom: null
+        newTo: null
+        sku: "500000355"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9659.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-gas-cooker-italiano-cast-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9659.6
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_italiano_cast_60x60.png"
+          label: Fresh Gas Cooker Italiano Cast 60x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 322
+        name: Fresh Gas Cooker Hi Cast ST Fan 60x60
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500003313"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 10545.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-hi-cast-st-fan-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9773.6
+            regular_price:
+              value: 9773.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hi_cast_st_fan_60x60.png"
+          label: Fresh Gas Cooker Hi Cast ST Fan 60x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 314
+        name: Fresh Gas Cooker Fire Forno ST 55x55
+        newFrom: null
+        newTo: null
+        sku: "500016599"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 8093.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-gas-cooker-fire-forno-st-55-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7501.2
+            regular_price:
+              value: 7501.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_fire_forno_st_55x55.png"
+          label: Fresh Gas Cooker Fire Forno ST 55x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (55 cm),cooker-appliances/4-burners/4-burners-55-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 635
+        name: Fresh Gas Cooker Built In Stainless -  HAFR60CMSC/1
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500008870"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 7962.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-gas-cooker-built-in-stainless-hafr60cmsc-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7379.6
+            regular_price:
+              value: 7379.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_hafr60cmsc1.png"
+          label: Fresh Gas Cooker Built In Stainless -  HAFR60CMSC1
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 414
+        name: Fresh Gas Cooker Built In Stainless -  HAFR60CMSC1/BR
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500009614"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9717.01
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-built-in-stainless-hafr60cmsc1-br
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9006
+            regular_price:
+              value: 9006
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_hafr60cmsc1br.jpg"
+          label: Fresh Gas Cooker Built In Stainless -  HAFR60CMSC1BR
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 443
+        name: Fresh Gas Cooker Hammer Rustic Touch 90
+        newFrom: null
+        newTo: null
+        sku: "500016938"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 23751.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-hammer-rustic-touch-90
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22013.4
+            regular_price:
+              value: 22013.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_rustic_touch_90_1.png"
+          label: Fresh Gas Cooker Hammer Rustic Touch 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 413
+        name: Fresh Gas Cooker Built In Stainless - HAFR90CMS
+        newFrom: null
+        newTo: null
+        sku: "500008866"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9130.69
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-built-in-st-g-hafr90cmms1-10
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8462.6
+            regular_price:
+              value: 8462.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_hafr90cms.jpg"
+          label: Fresh Gas Cooker Built In Stainless - HAFR90CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 394
+        name: Fresh Gas Cooker Built In Stainless - HAFR90CMSC1
+        newFrom: null
+        newTo: null
+        sku: "500008869"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 10610.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-st-g-hafr90cmms1-7
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9834.4
+            regular_price:
+              value: 9834.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_hafr90cmsc1.jpg"
+          label: Fresh Gas Cooker Built In Stainless - HAFR90CMSC1
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 968
+        name: Fresh Electric Cooker Built In VTC - 5 Zone 80 cm
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009862"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21799.71
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-electric-cooker-built-in-vtc-5-zone-80-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20204.61
+            regular_price:
+              value: 20204.61
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/v/t/vtc_80_2_1.png"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 967
+        name: Fresh Electric Cooker Built In VTC - 5 Zone 90 cm
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009863"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 25871
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-electric-cooker-built-in-vtc-5-zone-90-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23978
+            regular_price:
+              value: 23978
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/v/t/vtc_80.png"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 958
+        name: Fresh Gas Cooker Built In Stainless - Modena 90 cm
+        newFrom: "2023-10-11 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009847"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 10901.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-gas-cooker-built-in-stainless-modena-90-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 10104.2
+            regular_price:
+              value: 10104.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/0/500009847.png"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 393
+        name: Fresh Gas Cooker Built In Black  HAFR90CMBC1-BR
+        newFrom: "2023-01-18 00:00:00"
+        newTo: "2023-03-15 00:00:00"
+        sku: "500009845"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 12570.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-built-in-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11650.8
+            regular_price:
+              value: 11650.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_black_hafr90cmbc1-br.jpg"
+          label: Fresh Gas Cooker Built In Black  HAFR90CMBC1-BR
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 403
+        name: Fresh Built-In Oven 60 c.m. - Black /GEOFR60CMB
+        newFrom: null
+        newTo: null
+        sku: "500010344"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 15809.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-oven-built-in-black-60-cm-geofr60cmb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14652.8
+            regular_price:
+              value: 14652.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built_in_black_60_cm_-_geofr60cmb.jpg"
+          label: Fresh Oven Built In Black 60 cm - GEOFR60CMB
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 632
+        name: Fresh Built-In Oven 60 c.m. - Air Fryer /GEOFR60CMS
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500009651"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16674.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-oven-built-in-stainless-60-cm-air-fryer-geofr60cms
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15454.6
+            regular_price:
+              value: 15454.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built_in_stainless_60_cm_air_fryer_-_geofr60cms.jpg"
+          label: Fresh Oven Built In Stainless 60 cm Air Fryer - GEOFR60CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 401
+        name: Fresh Oven Built-In Stainless 60 cm - GEOFR60CMS
+        newFrom: null
+        newTo: null
+        sku: "500010342"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16035.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 18
+        url_key: fresh-oven-built-in-stainless-60-cm-geofr60cms
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14861.8
+            regular_price:
+              value: 14861.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built-in_stainless_60_cm_-_geofr60cms.jpg"
+          label: Fresh Oven Built-In Stainless 60 cm - GEOFR60CMS
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 315
+        name: Fresh Gas Cooker Hammer Safety  60x60
+        newFrom: null
+        newTo: null
+        sku: "500005320"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13218.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-gas-cooker-hummer-safety-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12251.2
+            regular_price:
+              value: 12251.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_safety_6060.png"
+          label: Fresh Gas Cooker Hammer Safety  6060
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 870
+        name: Fresh Gas Cooker Professional Air Fryer 65x60
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-31 00:00:00"
+        sku: "500014487"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 14538.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-professional-air-fryer-65-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13474.8
+            regular_price:
+              value: 13474.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_air_fryer_6560.png"
+          label: Fresh Gas Cooker Professional Air Fryer 65x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (65 cm),cooker-appliances/4-burners/4-burners-65-60
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 829
+        name: Fresh Gas Cooker Professional ST - Air Fryer 90
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500014441"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21242.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-professional-st-air-fryer-90
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19687.8
+            regular_price:
+              value: 19687.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_st_-_air_fryer_90_1.png"
+          label: Fresh Gas Cooker Professional ST - Air Fryer 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 440
+        name: Fresh Gas Cooker Professional Black 90
+        newFrom: null
+        newTo: null
+        sku: "500000087"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 19384.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-professional-stainless-93
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19384.8
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_black_90.png"
+          label: Fresh Gas Cooker Professional Black 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 867
+        name: Fresh Gas Cooker Hammer 90x60 ST Digital - Air Fryer
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500014442"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20680.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-hammer-90-60-st-digital-air-fryer
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19167.21
+            regular_price:
+              value: 19167.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_9060_st_digital_-_air_fryer.png"
+          label: Fresh Gas Cooker Hammer 90x60 ST Digital - Air Fryer
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 350
+        name: Fresh Gas Cooker Hammer 90x60 ST Digital
+        newFrom: null
+        newTo: null
+        sku: "500003514"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 19634.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-gas-cooker-hammer-90-60-st-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18198.21
+            regular_price:
+              value: 18198.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_90x60_st_digital_1.png"
+          label: Fresh Gas Cooker Hammer 90x60 ST Digital
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 441
+        name: Fresh Gas Cooker Professional Black Control 90
+        newFrom: null
+        newTo: null
+        sku: "500005791"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 19634.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-professional-stainless-94
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18198.21
+            regular_price:
+              value: 18198.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_black_control_90.png"
+          label: Fresh Gas Cooker Professional Black Control 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 439
+        name: Fresh Gas Cooker Grillo Control 90
+        newFrom: null
+        newTo: null
+        sku: "500005340"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20135.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-grillo-control-90-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18661.8
+            regular_price:
+              value: 18661.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_grillo_control_90.png"
+          label: Fresh Gas Cooker Grillo Control 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 370
+        name: Fresh Gas Cooker Professional Style 90x60
+        newFrom: null
+        newTo: null
+        sku: "500008130"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20139.21
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-gas-cooker-professional-style-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18665.6
+            regular_price:
+              value: 18665.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Professional Style 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 437
+        name: Fresh Gas Cooker Professional Stainless 90
+        newFrom: null
+        newTo: null
+        sku: "500000095"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20139.21
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-professional-stainless-90
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20139.21
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_stainless_90.png"
+          label: Fresh Gas Cooker Professional Stainless 90
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 347
+        name: Fresh Gas Cooker Matrix Touch 90x60
+        newFrom: null
+        newTo: null
+        sku: "500016944"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20536.91
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-matrix-touch-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19034.2
+            regular_price:
+              value: 19034.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_matrix_touch_90x60.png"
+          label: Fresh Gas Cooker Matrix Touch 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 1065
+        name: Fresh Gas Cooker Rock 90x60 Safety Digital
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-06 00:00:00"
+        sku: "500015559"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 17851.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-gas-cooker-rock-90x60-safety-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 16545.2
+            regular_price:
+              value: 16545.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Verona 90x60 Safety
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 665
+        name: Fresh Gas Cooker Verona 90x60 Safety
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500013019"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 15949
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-gas-cooker-verona-90-60-safety
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14781.99
+            regular_price:
+              value: 14781.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_verona_90x60_safety.png"
+          label: Fresh Gas Cooker Verona 90x60 Safety
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 664
+        name: Fresh Gas Cooker Jumbo Mirror 90x60 Digital Touch
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500011570"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16965.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-jumbo-mirror-90-60-digital-touch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15724.4
+            regular_price:
+              value: 15724.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_jumbo_mirror_90x60_digital_touch_1.png"
+          label: Fresh Gas Cooker Jumbo Mirror 90x60 Digital Touch
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 446
+        name: Fresh Gas Cooker Hummer Mirror 90x60 Digital Touch
+        newFrom: null
+        newTo: null
+        sku: "500016950"
+        special_from_date: "2020-06-10 00:00:00"
+        special_price: 20139.21
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-gas-cooker-hummer-touch-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18665.6
+            regular_price:
+              value: 18665.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Hammer 90x60 Digital Touch
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 499
+        name: Fresh Gas Cooker Hammer 90x60 ST Digital
+        newFrom: null
+        newTo: null
+        sku: "500016945"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 19762
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-gas-cooker-hummer-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18316
+            regular_price:
+              value: 18316
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_90x60_st_digital.png"
+          label: Fresh Gas Cooker Hammer 90x60 ST Digital
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 551
+        name: Fresh Gas Cooker Jumbo Mirror Plus 90x60 Digital Touch
+        newFrom: null
+        newTo: null
+        sku: "500012847"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 18101.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-gas-cooker-jumbo-mirror-plus-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 16777
+            regular_price:
+              value: 16777
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_jumbo_mirror_90x60_digital_touch_2.png"
+          label: Fresh Gas Cooker Jumbo Mirror Plus 90x60 Digital Touch
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 348
+        name: Fresh Gas Cooker Hammer Hydraulic  Mirror 90x60  Digital Touch
+        newFrom: null
+        newTo: null
+        sku: "500016947"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21508.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-gas-cooker-hummer-gold-90-64
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21508.6
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Hammer Hydraulic Mirror 90x60  Digital Touch
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 435
+        name: Fresh Gas Cooker Modena Stainless 90x60
+        newFrom: "2020-06-03 00:00:00"
+        newTo: "2020-08-31 00:00:00"
+        sku: "500011744"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21508.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-gas-cooker-modena-stainless-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19934.8
+            regular_price:
+              value: 19934.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_modena_stainless_90x60.png"
+          label: Fresh Gas Cooker Modena Stainless 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 345
+        name: Fresh Gas Cooker Matrix Gold  90x60
+        newFrom: null
+        newTo: null
+        sku: "500009705"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1200
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-gas-cooker-matrix-gold-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1200
+            regular_price:
+              value: 3000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Matrix Gold  90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 1085
+        name: Fresh Gas Cooker Rock Silver Fan 60cm
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500016076"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 7339
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-rock-silver-fan-60cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6802
+            regular_price:
+              value: 6802
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Italiano Cast 60x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 1053
+        name: Fresh Gas Cooker Built In Glass 90cm -  S2
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500009623"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 10709.19
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-glass-90cm-s2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9925.6
+            regular_price:
+              value: 9925.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Built In Glass 90cm -  S2
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 963
+        name: Fresh Oven Built In Stainless 90 cm - Top G/E
+        newFrom: "2023-10-11 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009661"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24431.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-oven-built-in-stainless-90-cm-top-g-e
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22644.2
+            regular_price:
+              value: 22644.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/0/500009660_1.png"
+          label: "Fresh Oven Built In Glass 90 cm "
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 962
+        name: Fresh Oven Built In Stainless 90 cm - Top
+        newFrom: "2023-10-11 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009660"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 25456.91
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-oven-built-in-stainless-90-cm-top
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23594.2
+            regular_price:
+              value: 23594.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/0/500009660.png"
+          label: "Fresh Oven Built In Glass 90 cm "
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 831
+        name: Fresh Gas Cooker Rainbow ST Fan Brass 60x60
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500016630"
+        special_from_date: "2023-11-10 00:00:00"
+        special_price: 8462.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-rainbow-st-fan-brass-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7843.2
+            regular_price:
+              value: 7843.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_rainbow_st_fan_brass_60x60.png"
+          label: Fresh Gas Cooker Rainbow ST Fan Brass 60x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 663
+        name: Fresh Gas Cooker Milano ST Fan 60x60
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500017268"
+        special_from_date: "2023-10-05 00:00:00"
+        special_price: 8523.89
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-milano-st-fan-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7900.2
+            regular_price:
+              value: 7900.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_milano_st_fan_6060.png"
+          label: Fresh Gas Cooker Milano ST Fan 6060
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 634
+        name: Fresh Gas Cooker Built In Rustic Glass -  HFR60CMGC
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500009621"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9491.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-rustic-glass-hfr60cmgc
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8797
+            regular_price:
+              value: 8797
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_rustic_glass_-_hfr60cmgc.png"
+          label: Fresh Gas Cooker Built In Rustic Glass -  HFR60CMGC
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 486
+        name: Fresh Gas Cooker Built In Glass  HFR90CMGC1/W
+        newFrom: null
+        newTo: null
+        sku: "500009605"
+        special_from_date: "2023-10-09 00:00:00"
+        special_price: 9286.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-glass-hfr90cmgc1-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8607
+            regular_price:
+              value: 8607
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_glass_hfr90cmgc1w.png"
+          label: Fresh Gas Cooker Built In Glass  HFR90CMGC1W
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 392
+        name: Fresh Gas Cooker Built In Glass - HFR90CMGC1
+        newFrom: null
+        newTo: null
+        sku: "500009606"
+        special_from_date: "2023-10-09 00:00:00"
+        special_price: 11414.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-glass-hfr90cmgc1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 10579.2
+            regular_price:
+              value: 10579.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_glass_-_hfr90cmgc1.png"
+          label: Fresh Gas Cooker Built In Glass - HFR90CMGC1
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 359
+        name: Fresh Gas Cooker Hi Cast  Fan CB 90x60
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500017080"
+        special_from_date: "2023-10-07 00:00:00"
+        special_price: 14481.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hi-cast-fan-cb-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13421.6
+            regular_price:
+              value: 13421.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Hi Cast  Fan CB 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 354
+        name: Fresh Gas Cooker Jumbo Stainless CB 90x60
+        newFrom: null
+        newTo: null
+        sku: "500016272"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12582.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-jumbo-color-90-62
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11662.2
+            regular_price:
+              value: 11662.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_jumbo_stainless_cb_90x60.png"
+          label: Fresh Gas Cooker Jumbo Stainless CB 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 336
+        name: Fresh Gas Cooker Forno Stainless Fan 80x55
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500016608"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11279.1
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-forno-stainless-fan-80-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 10453.8
+            regular_price:
+              value: 10453.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_forno_stainless_fan_80x55.png"
+          label: Fresh Gas Cooker Forno Stainless Fan 80x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (80 cm),cooker-appliances/5-burners/5-burners-80-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 330
+        name: "Fresh Gas Cooker Hammer  90x60 Black Digital Touch Hydraulic "
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500016933"
+        special_from_date: "2023-10-03 00:00:00"
+        special_price: 19335.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hammer-90-60-black-digital-touch-hydraulic
+        price_range:
+          maximum_price:
+            final_price:
+              value: 17920.8
+            regular_price:
+              value: 17920.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Gas Cooker Hammer 90x60 Black Digital Touch Hydraulic "
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 327
+        name: Fresh Gas Cooker Professional Control Black 65x60
+        newFrom: null
+        newTo: null
+        sku: "500001537"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13120
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-professional-control-black-65-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12160
+            regular_price:
+              value: 12160
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_control_black_6560.png"
+          label: Fresh Gas Cooker Professional Control Black 6560
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (65 cm),cooker-appliances/4-burners/4-burners-65-60
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 320
+        name: Fresh Gas Cooker Rainbow ST 60x60
+        newFrom: "2022-03-23 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500017269"
+        special_from_date: "2023-10-06 00:00:00"
+        special_price: 8118
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-rainbow-st-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7524
+            regular_price:
+              value: 7524
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_rainbow_st_6060.png"
+          label: Fresh Gas Cooker Rainbow ST 60x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 901
+        name: Fresh Cooker Hood 60 cm - Classic ST
+        newFrom: "2023-03-05 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500015906"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 4989.7
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-cooker-hood-60-cm-classic-st
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4624.6
+            regular_price:
+              value: 4624.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_cooker_hood_60_cm_-_classic_st.png"
+          label: Fresh Cooker Hood 60 cm - Classic ST
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Hood,cooker-appliances/built-in-appliances/built-in-hoods
+      - id: 899
+        name: Fresh Cooker Hood 60 cm - Classic Black
+        newFrom: "2023-03-05 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500015542"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 4571.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-cooker-hood-60-cm-classic-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4237
+            regular_price:
+              value: 4237
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/c/l/classic_black_1.png"
+          label: Fresh Cooker Hood 60 cm - Classic Black
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Hood,cooker-appliances/built-in-appliances/built-in-hoods
+      - id: 898
+        name: Fresh Cooker Hood 90 cm - Classic Black
+        newFrom: "2023-03-05 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500015543"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 5170.09
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-cooker-hood-90-cm-classic-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4791.8
+            regular_price:
+              value: 4791.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/c/l/classic_black.png"
+          label: Fresh Cooker Hood 90 cm - Classic Black
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Hood,cooker-appliances/built-in-appliances/built-in-hoods
+      - id: 897
+        name: Fresh Cooker Hood 90 cm - Classic
+        newFrom: "2023-03-05 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500015907"
+        special_from_date: "2023-10-13 00:00:00"
+        special_price: 5563.7
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-cooker-hood-90-cm-classic
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5156.6
+            regular_price:
+              value: 5156.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/c/l/classic_90_st.png"
+          label: Fresh Cooker Hood 90 cm - Classic
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Hood,cooker-appliances/built-in-appliances/built-in-hoods
+      - id: 547
+        name: Fresh Cooker Hood  90 cm - FHC90S75ML
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500016045"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 8823.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-cooker-hood-90-cm-fhc90s75ml
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8177.61
+            regular_price:
+              value: 8177.61
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Cooker Hood C2 90 CM
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Hood,cooker-appliances/built-in-appliances/built-in-hoods
+      - id: 1058
+        name: "Fresh Electric Cooker Built In VTC - 2 Zone "
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500013942"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5760.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-electric-cooker-built-in-vtc-2-zone
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5339
+            regular_price:
+              value: 5339
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 969
+        name: Fresh Electric Cooker Built In VTC - 4 Zone 60 cm
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500009861"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 14899.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-electric-cooker-built-in-vtc-4-zone-60-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13809.21
+            regular_price:
+              value: 13809.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/v/t/vtc_60.png"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 894
+        name: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        newFrom: "2023-02-28 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500009627"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 8245.11
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-stainless-modena-60-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7641.81
+            regular_price:
+              value: 7641.81
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_modena_60_cm.png"
+          label: Fresh Gas Cooker Built In Stainless - Modena 60 cm
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 395
+        name: Fresh Gas Cooker Built In Stainless - HAFR90CMSC1/BR
+        newFrom: null
+        newTo: null
+        sku: "500009589"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13132.31
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-built-in-st-g-hafr90cmms1-8
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12171.4
+            regular_price:
+              value: 12171.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_built_in_stainless_-_hafr90cmsc1br.png"
+          label: Fresh Gas Cooker Built In Stainless - HAFR90CMSC1BR
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Cooker Hob,cooker-appliances/built-in-appliances/built-in-hobs
+      - id: 353
+        name: Fresh Gas Cooker Jumbo Stainless 90x60
+        newFrom: null
+        newTo: null
+        sku: "500016271"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12582.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-jumbo-stainless-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11662.2
+            regular_price:
+              value: 11662.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_jumbo_stainless_90x60.png"
+          label: Fresh Gas Cooker Jumbo Stainless 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 631
+        name: Fresh Built-In Oven 60 c.m. - Rustic Black /GEOFR60CMRB
+        newFrom: "2022-03-20 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500009643"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 17097
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-oven-built-in-rustic-black-60-cm-geofr60cmrb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15846
+            regular_price:
+              value: 15846
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built_in_rustic_black_60_cm_-_geofr60cmrb.jpg"
+          label: Fresh Oven Built In Rustic Black 60 cm - GEOFR60CMRB
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 880
+        name: Fresh Built-In Oven 60 c.m. - Modena Black
+        newFrom: "2023-01-18 00:00:00"
+        newTo: "2023-03-15 00:00:00"
+        sku: "500009658"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16231.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-built-in-oven-modena-60-x60-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15044.2
+            regular_price:
+              value: 15044.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Built-In Oven 60 c.m. - Modena Black
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 406
+        name: Fresh Oven Built-In  60 cm - GEOFR60CMBG
+        newFrom: null
+        newTo: null
+        sku: "500009636"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 15809.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-oven-built-in-60-cm-geofr60cmbg
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14652.8
+            regular_price:
+              value: 14652.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_oven_built-in_60_cm_-_geofr60cmbg.jpg"
+          label: Fresh Oven Built-In  60 cm - GEOFR60CMBG
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          Built-in Appliances,cooker-appliances/built-in-appliances
+          Built-in Oven,cooker-appliances/built-in-appliances/built-in-ovens
+      - id: 869
+        name: "Fresh Gas Cooker Hammer Safety Air Fryer  60x60 "
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500014486"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13944.1
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hammer-safety-air-fryer-60-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12923.8
+            regular_price:
+              value: 12923.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_safety_air_fryer_6060.png"
+          label: "Fresh Gas Cooker Hammer Safety Air Fryer  6060 "
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (60 cm),cooker-appliances/4-burners/4-burners-60-cm
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 328
+        name: Fresh Gas Cooker Professional Control 65x60
+        newFrom: null
+        newTo: null
+        sku: "500002450"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13759.61
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-professional-style-65-61
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13759.61
+            regular_price:
+              value: 100000
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_professional_control_6560.png"
+          label: Fresh Gas Cooker Professional Control 65x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          4 Burners Cookers (65 cm),cooker-appliances/4-burners/4-burners-65-60
+          4 Burners Cookers,cooker-appliances/4-burners
+      - id: 331
+        name: Fresh Gas Cooker Hammer ST 80x55
+        newFrom: null
+        newTo: null
+        sku: "500003512"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16879.71
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hammer-st-80-55
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15644.61
+            regular_price:
+              value: 15644.61
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_st_80x55.png"
+          label: Fresh Gas Cooker Hammer ST 80x55
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (80 cm),cooker-appliances/5-burners/5-burners-80-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 868
+        name: Fresh Gas Cooker Matrix Touch 90x60 Air Fryer
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500016932"
+        special_from_date: "2023-10-08 00:00:00"
+        special_price: 21520.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-matrix-touch-90-60-air-fryer
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19946.2
+            regular_price:
+              value: 19946.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_matrix_touch_90x60_air_fryer.png"
+          label: Fresh Gas Cooker Matrix Touch 90x60 Air Fryer
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 351
+        name: Fresh Gas Cooker Hammer 90x60 ST Digital Hydraulic
+        newFrom: null
+        newTo: null
+        sku: "500016949"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20889.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hummer-gold-90-67
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19361
+            regular_price:
+              value: 19361
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_hammer_90x60_st_digital_hydraulic.png"
+          label: Fresh Gas Cooker Hammer 90x60 ST Digital Hydraulic
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 344
+        name: Fresh Gas Cooker Hammer Gold 90x60
+        newFrom: null
+        newTo: null
+        sku: "500009529"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22869.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-hummer-gold-90-60
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21196.4
+            regular_price:
+              value: 21196.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Gas Cooker Hammer Gold 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners
+      - id: 436
+        name: Fresh Gas Cooker Modena Mirror 90x60
+        newFrom: "2020-06-03 00:00:00"
+        newTo: "2020-08-31 00:00:00"
+        sku: "500011745"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 20336
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-gas-cooker-modena-mirror-90-61
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20336
+            regular_price:
+              value: 25420.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_gas_cooker_modena_mirror_90x60.png"
+          label: Fresh Gas Cooker Modena Mirror 90x60
+        categories[3]{name,url_path}:
+          Cookers,cooker-appliances
+          5 Burners Cookers (90 cm),cooker-appliances/5-burners/5-burners-90-cm
+          5 Burners Cookers,cooker-appliances/5-burners

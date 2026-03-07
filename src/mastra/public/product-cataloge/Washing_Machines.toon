@@ -1,0 +1,1037 @@
+data:
+  connection:
+    aggregations[6]:
+      - attribute: price
+        label: Price
+        count: 3
+        options[3]{label,count,value}:
+          0-10000,26,0_10000
+          10000-20000,15,10000_20000
+          20000-30000,2,20000_30000
+      - attribute: category_uid
+        label: Category
+        count: 6
+        options[6]{label,count,value}:
+          Washing Machines,43,MjI=
+          Top Loading Washing Machine,14,NDA=
+          Twin Tub Washing Machine,14,NDE=
+          Single Tub Washing Machine,9,NDI=
+          Full Automatic Washing Machine,5,Mzk=
+          Dishwasher,1,OTU=
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,38,"1"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,42,"0"
+          Yes,1,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,38,"0"
+          Yes,5,"1"
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,19,"5431"
+          Black,6,"5432"
+          Silver,8,"5433"
+          Stainless,2,"5437"
+          Multiple,8,"5438"
+          Gray,0,"5519"
+    nodes[43]:
+      - id: 1054
+        name: Fresh Washing Machine Grand - FWT12000NA-PL
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500002930"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 6744.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-washing-machine-grand-fwt12000na-pl
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6251
+            regular_price:
+              value: 6251
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Washing Machine Grand - FWT12000NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 951
+        name: Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver
+        newFrom: "2023-08-31 00:00:00"
+        newTo: "2023-10-15 00:00:00"
+        sku: "500016429"
+        special_from_date: "2023-10-31 00:00:00"
+        special_price: 19794.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-washing-machine-9-kg-inverter-direct-drive-pc-dark-silver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19794.8
+            regular_price:
+              value: 21044.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/g/r/gray-door-3_3.jpg"
+          label: Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Full Automatic Washing Machine,washing-machines/full-automatic
+      - id: 948
+        name: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2- Ocean Blue
+        newFrom: "2023-08-31 00:00:00"
+        newTo: "2023-10-15 00:00:00"
+        sku: "500016431"
+        special_from_date: "2023-10-31 00:00:00"
+        special_price: 20377.01
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-washing-machine-9-kg-inverter-direct-drive-g2-ocean-blue
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20377.01
+            regular_price:
+              value: 21044.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/l/blue-door-1.jpg"
+          label: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2- Ocean Blue
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Full Automatic Washing Machine,washing-machines/full-automatic
+      - id: 946
+        name: Fresh Washing Machine 08 Kgs Inverter Direct Drive G1 - Ocean Blue
+        newFrom: "2023-08-31 00:00:00"
+        newTo: "2023-10-15 00:00:00"
+        sku: "500016427"
+        special_from_date: "2023-10-31 00:00:00"
+        special_price: 17757.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-washing-machine-8-kg-inverter-direct-drive-g1-ocean-blue
+        price_range:
+          maximum_price:
+            final_price:
+              value: 17757.1
+            regular_price:
+              value: 19155.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/l/blue-door-2.jpg"
+          label: Fresh Washing Machine 08 Kgs Inverter Direct Drive G1 - Ocean Blue
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Full Automatic Washing Machine,washing-machines/full-automatic
+      - id: 945
+        name: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC - Dark Silver
+        newFrom: "2023-08-31 00:00:00"
+        newTo: "2023-10-15 00:00:00"
+        sku: "500016426"
+        special_from_date: "2023-10-31 00:00:00"
+        special_price: 17466
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 8
+        url_key: fresh-washing-machine-8-kg-inverter-direct-drive-pc-dark-silver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 17466
+            regular_price:
+              value: 18886
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/g/r/gray-door-3.jpg"
+          label: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC - Dark Silver
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Full Automatic Washing Machine,washing-machines/full-automatic
+      - id: 866
+        name: Fresh Washing Machine Grand - FWT12000NA
+        newFrom: "2022-12-26 00:00:00"
+        newTo: "2023-01-26 00:00:00"
+        sku: "500001730"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 7134.01
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-washing-machine-grand-fwt12000na
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6612
+            regular_price:
+              value: 6612
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_grand_-_fwt12000na.jpg"
+          label: Fresh Washing Machine Grand - FWT12000NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 296
+        name: Fresh Washing Machine Baby 3 K.G. - FWS300NA
+        newFrom: null
+        newTo: null
+        sku: "500002016"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1939.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 25
+        url_key: fresh-washing-machine-baby-3-kg-fws300na
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1797.4
+            regular_price:
+              value: 1797.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_baby_3_k.g._-_fws300na.jpg"
+          label: Fresh Washing Machine Baby 3 K.G. - FWS300NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 607
+        name: Fresh Washing Machine 4 K.G. (Shoe Brush Included)
+        newFrom: null
+        newTo: null
+        sku: "500013285"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2000.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 19
+        url_key: fresh-washing-machine-4k-g-with-shoes-brush
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1854.4
+            regular_price:
+              value: 1854.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_4_k.g_shoe_brush_included_.jpg"
+          label: Fresh Washing Machine 4 K.G (Shoe Brush Included)
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 298
+        name: Fresh Washing Machine Shatoura - 5 K.G.
+        newFrom: null
+        newTo: null
+        sku: "500001928"
+        special_from_date: "2023-10-03 00:00:00"
+        special_price: 2894.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-washing-machine-shatoora-5-kg
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2682.8
+            regular_price:
+              value: 2682.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_shatoura_-_5_k.g..jpg"
+          label: Fresh Washing Machine Shatoura - 5 K.G.
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 1081
+        name: "Fresh Washing Machine Shabah "
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500007007"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 2964.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-washing-machine-shabah
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2747.4
+            regular_price:
+              value: 2747.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Washing Machine Shabah "
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 1076
+        name: Fresh Washing Machine Jumbo 10 K.G.
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500013278"
+        special_from_date: "2024-02-29 00:00:00"
+        special_price: 3423.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 18
+        url_key: fresh-washing-machine-jumbo-new
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3173
+            regular_price:
+              value: 3173
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Washing Machine Jumbo 10 K.G.
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 301
+        name: Fresh Washing Machine Duetto - FWT500NA
+        newFrom: null
+        newTo: null
+        sku: "500001705"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4567.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-washing-machine-duetto-fwt500na
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4233.2
+            regular_price:
+              value: 4233.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_duetto_-_fwt500na.png"
+          label: Fresh Washing Machine Duetto - FWT500NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 307
+        name: Fresh Washing Machine Fantasia - TWM 600
+        newFrom: null
+        newTo: null
+        sku: "500001717"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5092.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-washing-machine-fantasia-twm-600
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4719.6
+            regular_price:
+              value: 4719.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_fantasia_-_twm_600_1_.jpg"
+          label: Fresh Washing Machine Fantasia - TWM 600
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 713
+        name: Fresh Washing Machine Modena Turquoise - FWT10000 NC
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500014309"
+        special_from_date: "2023-10-19 00:00:00"
+        special_price: 5543.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-washing-machine-modena-turquoise-fwt10000-nc
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5137.59
+            regular_price:
+              value: 5137.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_modena_turquoise_-_fwt10000_nc_2_.png"
+          label: Fresh Washing Machine Modena Turquoise - FWT10000 NC
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 304
+        name: Fresh Washing Machine Shabah
+        newFrom: null
+        newTo: null
+        sku: "500004783"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5916.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-washing-machine-duetto-fwt500na-3
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5483.4
+            regular_price:
+              value: 5483.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_shabah.png"
+          label: Fresh Washing Machine Shabah
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 305
+        name: Fresh Washing Machine Jumbo - FWT1000NA
+        newFrom: null
+        newTo: null
+        sku: "500001911"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 6744.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-washing-machine-duetto-fwt500na-4
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6251
+            regular_price:
+              value: 6251
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_jumbo_-_fwt1000na.png"
+          label: Fresh Washing Machine Jumbo - FWT1000NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 727
+        name: "Fresh Top Loading Washing Machine 7 K.G. - Silver "
+        newFrom: "2022-06-28 00:00:00"
+        newTo: "2022-07-20 00:00:00"
+        sku: "500013518"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9229.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-washing-machine-top-loading-7-k-g-silver-n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8553.81
+            regular_price:
+              value: 8553.81
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_7_k.g._-_silver.jpg"
+          label: "Fresh Top Loading Washing Machine 7 K.G. - Silver "
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 288
+        name: Fresh Top Loading Washing Machine 9 K.G. - Silver
+        newFrom: "2022-06-28 00:00:00"
+        newTo: "2022-07-20 00:00:00"
+        sku: "500012870"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11955.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-washing-machine-top-loading-9-k-g-silver-n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11080.8
+            regular_price:
+              value: 11080.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_9_k.g._-_silver.jpg"
+          label: Fresh Top Loading Washing Machine 9 K.G. - Silver
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 975
+        name: Fresh Top Loading Washing Machine 12 K.G. - Dark Steel
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500017027"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 15825.99
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-top-loading-washing-machine-12-k-g-dark-steel
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14667.99
+            regular_price:
+              value: 14667.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/w/a/washing_machine_10_12_kg_-_dark_steel_1.jpg"
+          label: Fresh Top Loading Washing Machine 12 K.G. - Dark Steel
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 957
+        name: Fresh Top Loading Washing Machine 12 K.G. - Black LED
+        newFrom: "2023-09-07 00:00:00"
+        newTo: "2023-09-30 00:00:00"
+        sku: "500016856"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 15657.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-top-loading-washing-machine-12-k-g-black-led
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14512.2
+            regular_price:
+              value: 14512.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_11_k.g._-_black.jpg"
+          label: Fresh Top Loading Washing Machine 11 K.G. - Black
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 722
+        name: Fresh Top Loading Washing Machine 11 K.G. - Black
+        newFrom: "2022-06-28 00:00:00"
+        newTo: "2022-07-20 00:00:00"
+        sku: "500014479"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 15452.89
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 8
+        url_key: fresh-washing-machine-top-loading-11-k-g-black-n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14322.2
+            regular_price:
+              value: 14322.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_11_k.g._-_black.jpg"
+          label: Fresh Top Loading Washing Machine 11 K.G. - Black
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 293
+        name: Fresh Top Loading Washing Machine 11 K.G. - Silver
+        newFrom: "2022-06-28 00:00:00"
+        newTo: "2022-07-20 00:00:00"
+        sku: "500013624"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 14952.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-washing-machine-top-loading-11-k-g-silver-n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13858.59
+            regular_price:
+              value: 13858.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_11_k.g._-_silver.jpg"
+          label: Fresh Top Loading Washing Machine 11 K.G. - Silver
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 667
+        name: Fresh Dishwasher A15-60-SR/ 12 Person
+        newFrom: "2022-03-28 00:00:00"
+        newTo: "2022-04-15 00:00:00"
+        sku: "500013746"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 16301.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 18
+        url_key: fresh-dishwasher-a15-60-sr-12-p-silver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15108.81
+            regular_price:
+              value: 15108.81
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_dishwasher_a15-60-sr_12_person_silver_1_.jpg"
+          label: "Fresh Dishwasher A15-60-SR 12 Person, Silver"
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Dishwasher,washing-machines/dish-washer
+      - id: 1057
+        name: Fresh Washing Machine Jumbo - FWT10000/P
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500001910"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 6367.3
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-elegant-fwt10000-p
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5901.39
+            regular_price:
+              value: 5901.39
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Washing Machine Grand - FWT12000NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 947
+        name: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1- Ocean Blue
+        newFrom: "2023-08-31 00:00:00"
+        newTo: "2023-10-15 00:00:00"
+        sku: "500016430"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 20085.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-9-kg-inverter-direct-drive-g1-ocean-blue
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20085.9
+            regular_price:
+              value: 20774.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/l/blue-door-2_1.jpg"
+          label: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1- Ocean Blue
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Full Automatic Washing Machine,washing-machines/full-automatic
+      - id: 721
+        name: Fresh Washing Machine Modena Burgundy - FWT500 NC
+        newFrom: "2022-06-26 00:00:00"
+        newTo: "2022-07-30 00:00:00"
+        sku: "500014095"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4567.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-modena-dark-red-fwt500-nc
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4233.2
+            regular_price:
+              value: 4233.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_modena_burgundy_-_fwt500_nc_1_.png"
+          label: Fresh Washing Machine Modena Burgundy - FWT500 NC
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 964
+        name: Fresh Washing Machine 4 K.G.
+        newFrom: "2023-10-11 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500002160"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1988.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-4k-g-with-shoes-brush-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1842.99
+            regular_price:
+              value: 1842.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_4_k.g_shoe_brush_included_.jpg"
+          label: Fresh Washing Machine 4 K.G (Shoe Brush Included)
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 297
+        name: Fresh Washing Machine 4 K.G (Spin Tub Included)  - SWM400NA
+        newFrom: null
+        newTo: null
+        sku: "500010602"
+        special_from_date: "2023-10-05 00:00:00"
+        special_price: 2037.69
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-4k-g-with-spin-tub-swm400na
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1888.59
+            regular_price:
+              value: 1888.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_4_k.g_spin_tub_included_-_swm400na_1_.jpg"
+          label: Fresh Washing Machine 4 K.G (Spin Tub Included)  - SWM400NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 714
+        name: Fresh Washing Machine Jumbo (Modena)
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500014094"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 3378.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-jumbo-modena-dr
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3131.2
+            regular_price:
+              value: 3131.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_jumbo_modena_2_.png"
+          label: Fresh Washing Machine Jumbo (Modena)
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 300
+        name: Fresh Washing Machine Jumbo (Elegant) - FWS1000NA
+        newFrom: null
+        newTo: null
+        sku: "500002004"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3353.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-jumbo-fws1000na
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3108.4
+            regular_price:
+              value: 3108.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_jumbo_elegant_-_fws1000na.png"
+          label: Fresh Washing Machine Jumbo (Elegant) - FWS1000NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Single Tub Washing Machine,washing-machines/single-tube
+      - id: 712
+        name: Fresh Washing Machine Modena Burgundy - FWT10000 NC
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500014498"
+        special_from_date: "2023-10-05 00:00:00"
+        special_price: 5543.19
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-modena-dark-red-fwt10000-nc
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5137.59
+            regular_price:
+              value: 5137.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_modena_burgundy_-_fwt10000_nc.png"
+          label: Fresh Washing Machine Modena Burgundy - FWT10000 NC
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 710
+        name: Fresh Washing Machine Modena Black - FWT10000 NC
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013406"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5543.19
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-modena-black-fwt10000-nc
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5137.59
+            regular_price:
+              value: 5137.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_modena_black_-_fwt10000_nc.png"
+          label: "Fresh Washing Machine Modena Black - FWT10000 NC\r\n"
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 444
+        name: Fresh Washing Machine Diamond - FWT600
+        newFrom: null
+        newTo: null
+        sku: "500009461"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5092.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-duetto-fwt500na-6
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4719.6
+            regular_price:
+              value: 4719.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_diamond_-_fwt600_1_.jpg"
+          label: Fresh Washing Machine Diamond - FWT600
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 302
+        name: Fresh Washing Machine Star - FWT700NA
+        newFrom: null
+        newTo: null
+        sku: "500001654"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 5276.71
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-duetto-fwt500na-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4890.6
+            regular_price:
+              value: 4890.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_star_-_fwt700na.png"
+          label: Fresh Washing Machine Star - FWT700NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 308
+        name: Fresh Washing Machine Smart - FWT900NA
+        newFrom: null
+        newTo: null
+        sku: "500001776"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 6223.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-fantasia-twm-601
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5768.4
+            regular_price:
+              value: 5768.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_washing_machine_smart_-_fwt900na.jpg"
+          label: Fresh Washing Machine Smart - FWT900NA
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Twin Tub Washing Machine,washing-machines/twin-tub
+      - id: 287
+        name: Fresh Top Loading Washing Machine 9 K.G. - White
+        newFrom: null
+        newTo: null
+        sku: "500015120"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11611.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-top-loading-9-k-g-white
+        price_range:
+          maximum_price:
+            final_price:
+              value: 10761.6
+            regular_price:
+              value: 10761.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_9_k.g._-_white.png"
+          label: Fresh Top Loading Washing Machine 9 K.G. - White
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 1068
+        name: Fresh Top Loading Washing Machine 7 K.G. - Black
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500015759"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9306.99
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-top-loading-washing-machine-7-k-g-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8626
+            regular_price:
+              value: 8626
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_9_k.g._-_black.jpg"
+          label: Fresh Top Loading Washing Machine 9 K.G. - Black
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 758
+        name: Fresh Top Loading Washing Machine 7 K.G. - Silver Metal
+        newFrom: "2022-10-23 00:00:00"
+        newTo: "2022-11-15 00:00:00"
+        sku: "500013520"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 9930.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-top-loading-7-k-g-silver-metal
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9203.61
+            regular_price:
+              value: 9203.61
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_7_k.g._-_silver_metal.jpg"
+          label: Fresh Top Loading Washing Machine 7 K.G. - Silver Metal
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 723
+        name: Fresh Top Loading Washing Machine 9 K.G. - Black
+        newFrom: "2022-06-28 00:00:00"
+        newTo: "2022-07-20 00:00:00"
+        sku: "500014243"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12447.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-top-loading-9-k-g-black-n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11536.8
+            regular_price:
+              value: 11536.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_9_k.g._-_black.jpg"
+          label: Fresh Top Loading Washing Machine 9 K.G. - Black
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 289
+        name: Fresh Top Loading Washing Machine 11 K.G. - White
+        newFrom: null
+        newTo: null
+        sku: "500015121"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 14091.7
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-top-loading-9-k-g-white-2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13060.6
+            regular_price:
+              value: 13060.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_11_k.g._-_white.png"
+          label: Fresh Top Loading Washing Machine 11 K.G. - White
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 974
+        name: Fresh Top Loading Washing Machine 10 K.G. - Dark Steel
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500017026"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12869.89
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-top-loading-washing-machine-10-k-g-dark-steel
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11928.2
+            regular_price:
+              value: 11928.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/w/a/washing_machine_10_12_kg_-_dark_steel.jpg"
+          label: Fresh Top Loading Washing Machine 10 K.G. - Dark Steel
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 956
+        name: Fresh Top Loading Washing Machine 10 K.G. - Black LED
+        newFrom: "2023-09-07 00:00:00"
+        newTo: "2023-09-30 00:00:00"
+        sku: "500016799"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 12660.81
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-top-loading-washing-machine-10-k-g-black-led
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11734.4
+            regular_price:
+              value: 11734.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_top_loading_washing_machine_11_k.g._-_black.jpg"
+          label: Fresh Top Loading Washing Machine 11 K.G. - Black
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading
+      - id: 290
+        name: Fresh Washing Machine Top Loading 13 K.G - Silver
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500017071"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 16883.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-washing-machine-top-loading-13-k-g-silver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15648.39
+            regular_price:
+              value: 15648.39
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Washing Machine Top Loading 13 K.G - Silver
+        categories[2]{name,url_path}:
+          Washing Machines,washing-machines
+          Top Loading Washing Machine,washing-machines/top-loading

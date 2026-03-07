@@ -1,0 +1,530 @@
+data:
+  connection:
+    aggregations[6]:
+      - attribute: price
+        label: Price
+        count: 3
+        options[3]{label,count,value}:
+          0-10000,9,0_10000
+          10000-20000,8,10000_20000
+          20000-30000,4,20000_30000
+      - attribute: category_uid
+        label: Category
+        count: 5
+        options[5]{label,count,value}:
+          Televisions,21,MjM=
+          LED TVs,9,NTA=
+          Android LED TVs,5,MjA4
+          Google Smart TVs,4,Mjc4
+          Linux LED TVs,3,Mjc3
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,18,"1"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,9,"0"
+          Yes,12,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,21,"0"
+          Yes,0,"1"
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,0,"5431"
+          Black,11,"5432"
+          Silver,7,"5433"
+          Stainless,0,"5437"
+          Multiple,3,"5438"
+          Gray,0,"5519"
+    nodes[21]:
+      - id: 955
+        name: Fresh TV Screen LED 40 Inch FHD - 40MF333
+        newFrom: "2023-09-07 00:00:00"
+        newTo: "2023-09-30 00:00:00"
+        sku: "500016641"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9643.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-tv-screen-led-40-inch-fhd-40mf333
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8937.6
+            regular_price:
+              value: 8937.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/_/5_1.jpg"
+          label: Fresh TV Screen LED 40 Inch FHD - 40MF333
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 935
+        name: Fresh Smart Google LED TV Screen 43 Inch FHD Built-In Receiver - 43LF423RGT
+        newFrom: "2023-06-11 00:00:00"
+        newTo: "2023-07-31 00:00:00"
+        sku: "500016285"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13993.31
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-tv-screen-led-43-inch-full-hd-43lf423rgt-smart-google-with-built-in-receiver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12969.4
+            regular_price:
+              value: 12969.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_43_inch_ultra_hd_-_50lu433rgt_-_smart_google.jpg"
+          label: Fresh TV Screen LED 43 Inch Ultra HD - 50LU433RGT - Smart Google
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Google Smart TVs,tv/google-tv
+      - id: 907
+        name: Fresh Linux Frameless LED TV Screen 32 Inch Built-In Receiver - 32LH424RD
+        newFrom: "2023-03-19 00:00:00"
+        newTo: "2023-04-30 00:00:00"
+        sku: "500015522"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 7568.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-tv-screen-led-32-inch-hd-32lh424rd-linux-built-in-receiver-frameless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6798.2
+            regular_price:
+              value: 6798.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_32_inch_ultra_hd_-_32lh424r_-_linux_1.jpg"
+          label: Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Linux LED TVs,tv/linux-led-tv
+      - id: 491
+        name: Fresh Smart Android LED TV Screen 43 Inch FHD Built-In Receiver - 43LF423RE
+        newFrom: null
+        newTo: null
+        sku: "500014119"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13993.31
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-tv-screen-led-43-inch-full-hd1080p-43lf423re-android-with-receiver-built-in
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12969.4
+            regular_price:
+              value: 12969.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_43_inch_full_hd1080p_-_43lf423re_android_with_receiver_built_in.png"
+          label: Fresh TV Screen LED 43 Inch Full HD1080p - 43LF423RE Android With Receiver Built In
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Android LED TVs,tv/android-led-tv
+      - id: 606
+        name: Fresh TV Screen LED 43 Inch Full HD - 43LF123
+        newFrom: null
+        newTo: null
+        sku: "500013698"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12123.71
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-tv-screen-led-43-inch-full-hd1080p-43lf123
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11236.6
+            regular_price:
+              value: 11236.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_43_inch_full_hd1080p_-43lf123.png"
+          label: Fresh TV Screen LED 43 Inch Full HD1080p -43LF123
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 905
+        name: "Fresh TV Screen LED 43 Inch Full HD With Built-In Receiver - 43LF324R "
+        newFrom: "2023-03-19 00:00:00"
+        newTo: "2023-04-30 00:00:00"
+        sku: "500013707"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12443.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-tv-screen-led-43-inch-full-hd-with-built-in-receiver-43lf324r
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11532.99
+            regular_price:
+              value: 11532.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_43_inch_full_hd_with_built-in_receiver_-_43lf324r.jpg"
+          label: "Fresh TV Screen LED 43 Inch Full HD With Built-In Receiver - 43LF324R "
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 602
+        name: "Fresh TV Screen LED 43 Inch Full HD With Built-In Receiver - 43LF123R "
+        newFrom: null
+        newTo: null
+        sku: "500013699"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12443.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-tv-screen-led-43-inch-full-hd1080p-43lf123r-with-receiver-built-in
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11532.99
+            regular_price:
+              value: 11532.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_43_inch_full_hd_with_built-in_receiver_-_43lf123r.png"
+          label: "Fresh TV Screen LED 43 Inch Full HD With Built-In Receiver - 43LF123R "
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 1063
+        name: Fresh Smart Google LED TV Screen 55 Inch UHD Built-In Receiver - 55LU433RGT
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500016287"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21914.49
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-smart-google-led-tv-screen-55-inch-uhd-built-in-receiver-55lu433rgt
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20310.99
+            regular_price:
+              value: 20310.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_smart_screen_led_65_inch_ultra_hd65lu433rgt_-_smart_google_with_built-in_receiver_1.jpg"
+          label: Fresh TV Smart Screen LED 65 Inch Ultra HD -65LU433RG - Android With Built-In Receiver
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Google Smart TVs,tv/google-tv
+      - id: 954
+        name: Fresh TV Screen LED 32 Inch HD - 32LH123L2
+        newFrom: "2023-09-07 00:00:00"
+        newTo: "2023-09-30 00:00:00"
+        sku: "500016640"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 6535.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-hd-32lh123l2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6057.2
+            regular_price:
+              value: 6057.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/3/2/32lh123.png"
+          label: Fresh TV Screen LED 32 Inch HD - 32LH123L2
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 937
+        name: Fresh Smart Google LED TV Screen 65 Inch UHD Built-In Receiver - 65LU433RGT
+        newFrom: "2023-06-11 00:00:00"
+        newTo: "2023-07-31 00:00:00"
+        sku: "500016288"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 27592.99
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-smart-screen-led-65-inch-ultra-hd-65lu433rgt-smart-google-with-built-in-receiver
+        price_range:
+          maximum_price:
+            final_price:
+              value: 25574
+            regular_price:
+              value: 25574
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_smart_screen_led_65_inch_ultra_hd65lu433rgt_-_smart_google_with_built-in_receiver_1.jpg"
+          label: Fresh TV Smart Screen LED 65 Inch Ultra HD -65LU433RG - Android With Built-In Receiver
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Google Smart TVs,tv/google-tv
+      - id: 936
+        name: Fresh Smart Google LED TV Screen 50 Inch UHD - 50LU433RGT
+        newFrom: "2023-06-11 00:00:00"
+        newTo: "2023-07-31 00:00:00"
+        sku: "500016286"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20196.59
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-50-inch-ultra-hd-50lu433rgt-smart-google
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18718.8
+            regular_price:
+              value: 18718.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_50_inch_ultra_hd_-_50lu433rgt_-_smart_google.jpg"
+          label: Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RGT - Smart Google
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Google Smart TVs,tv/google-tv
+      - id: 739
+        name: Fresh TV Screen LED 40 Inch Full HD - 40LF123
+        newFrom: "2022-07-16 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500014861"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9643.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-40-inch-full-hd1080p-40lf123
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8937.6
+            regular_price:
+              value: 8937.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_40_inch_full_hd_-_40lf123.jpg"
+          label: Fresh TV Screen LED 40 Inch Full HD - 40LF123
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 737
+        name: Fresh Linux LED TV Screen 32 Inch HD Built-In Receiver - 32LH424R
+        newFrom: "2022-07-16 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500013705"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 8241
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-ultra-hd-32lh424r-linux
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7638
+            regular_price:
+              value: 7638
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_32_inch_ultra_hd_-_32lh424r_-_linux.jpg"
+          label: Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Linux LED TVs,tv/linux-led-tv
+      - id: 736
+        name: Fresh Linux LED TV Screen 50 Inch 4K UHD Built-In Receiver - 50LU434R
+        newFrom: "2022-07-16 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500013708"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 18884.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-50-inch-ultra-hd-50lu434r-linux
+        price_range:
+          maximum_price:
+            final_price:
+              value: 17502.8
+            regular_price:
+              value: 17502.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_50_inch_ultra_hd_-_50lu434r_-_linux.jpg"
+          label: Fresh TV Screen LED 50 Inch Ultra HD - 50LU434R - Linux
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Linux LED TVs,tv/linux-led-tv
+      - id: 600
+        name: Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RG - Smart Android
+        newFrom: null
+        newTo: null
+        sku: "500013700"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 20196.59
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-50-inch-ultra-hd-50lu433rg-android
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18718.8
+            regular_price:
+              value: 18718.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_50_inch_ultra_hd_-_50lu433rg_-_android.jpg"
+          label: Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RG - Smart Android
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Android LED TVs,tv/android-led-tv
+      - id: 598
+        name: Fresh Smart Android LED TV Screen 55 Inch 4K UHD Built-In Receiver - 55LU433RG
+        newFrom: null
+        newTo: null
+        sku: "500013701"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 21914.49
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-55-inch-ultra-hd-55lu433rg-android
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20310.99
+            regular_price:
+              value: 20310.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_55_inch_ultra_hd_-_55lu433rg_-_android.jpg"
+          label: Fresh TV Screen LED 55 Inch  Ultra HD - 55LU433RG - Android
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Android LED TVs,tv/android-led-tv
+      - id: 494
+        name: Fresh Smart Android LED TV Screen 65 Inch 4K UHD Built-In Receiver - 65LU433RG
+        newFrom: "2023-03-16 00:00:00"
+        newTo: "2023-04-15 00:00:00"
+        sku: "500013702"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 25518.41
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-65-inch-ultra-hd-65lu433rg-android-with-receiver-built-in
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23651.2
+            regular_price:
+              value: 23651.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_smart_screen_led_65_inch_ultra_hd_-65lu433rg_-_android_with_built-in_receiver_1_.png"
+          label: Fresh TV Smart Screen LED 65 Inch Ultra HD -65LU433RG - Android With Built-In Receiver
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Android LED TVs,tv/android-led-tv
+      - id: 490
+        name: Fresh TV Screen LED 32 Inch HD - 32LH423RE- Smart Android With Built-In Receiver
+        newFrom: null
+        newTo: null
+        sku: "500014118"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9327.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-hd-32lh423re-android-with-receiver-built-in
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8645
+            regular_price:
+              value: 8645
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_32_inch_hd_-_32lh423re-_android_with_receiver_built_in.png"
+          label: Fresh TV Screen LED 32 Inch HD - 32LH423RE- Android With Receiver Built In
+        categories[2]{name,url_path}:
+          Televisions,tv
+          Android LED TVs,tv/android-led-tv
+      - id: 1064
+        name: "Fresh TV Screen LED 32 Inch HD - 32LH324D Frameless "
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500015520"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 6055.7
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-hd-32lh324d-frameless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5342.8
+            regular_price:
+              value: 5342.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh TV Screen LED 32 Inch HD With Built-In Receiver - 32LH324RD Frameless "
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 906
+        name: "Fresh TV Screen LED 32 Inch HD With Built-In Receiver - 32LH324RD Frameless "
+        newFrom: "2023-03-19 00:00:00"
+        newTo: "2023-04-30 00:00:00"
+        sku: "500015521"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 7220.1
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-hd-with-built-in-receiver-32lh324rd-frameless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6201.6
+            regular_price:
+              value: 6201.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_32_inch_hd_with_built-in_receiver_-_32lh324rd_frameless_1.jpg"
+          label: "Fresh TV Screen LED 32 Inch HD With Built-In Receiver - 32LH324RD Frameless "
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv
+      - id: 601
+        name: "Fresh TV Screen LED 32 Inch HD With Built-In Receiver - 32LH123R "
+        newFrom: null
+        newTo: null
+        sku: "500013561"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 7220.1
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-tv-screen-led-32-inch-hd768p-32lh123r-with-receiver-built-in
+        price_range:
+          maximum_price:
+            final_price:
+              value: 6201.6
+            regular_price:
+              value: 6201.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_tv_screen_led_32_inch_hd_with_built-in_receiver_-_32lh123r.png"
+          label: "Fresh TV Screen LED 32 Inch HD With Built-In Receiver - 32LH123R "
+        categories[2]{name,url_path}:
+          Televisions,tv
+          LED TVs,tv/led-tv

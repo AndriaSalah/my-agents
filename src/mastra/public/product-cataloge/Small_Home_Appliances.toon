@@ -1,0 +1,2471 @@
+data:
+  connection:
+    aggregations[7]:
+      - attribute: price
+        label: Price
+        count: 10
+        options[10]{label,count,value}:
+          0-1000,35,0_1000
+          1000-2000,46,1000_2000
+          2000-3000,30,2000_3000
+          3000-4000,35,3000_4000
+          4000-5000,19,4000_5000
+          5000-6000,11,5000_6000
+          6000-7000,18,6000_7000
+          7000-8000,11,7000_8000
+          8000-9000,6,8000_9000
+          9000-10000,4,9000_10000
+      - attribute: category_uid
+        label: Category
+        count: 40
+        options[40]{label,count,value}:
+          "Small Home Appliances ",215,NA==
+          Fans,53,MTE=
+          Kitchen Appliances,36,MTk=
+          Water Appliances,26,Nzg=
+          Microwave,25,NQ==
+          Water Heaters,25,MTU=
+          Stand Fans,21,NTI=
+          Air Cooler,17,NDk=
+          Electric Water Heater,15,MTY=
+          Solo Microwave,15,OTA=
+          Vacuum Cleaner,13,NDM=
+          Water Dispenser,12,ODQ=
+          Vacuum Cleaner With a Bag,12,OTM=
+          Electric Oven,11,OQ==
+          Wall Mount Fans,10,MTI=
+          Gas Water Heater,10,MTc=
+          Ventilators,9,NTM=
+          Hand Blender,8,NTY=
+          Grill Microwave,8,OTE=
+          Water Coleman,7,ODE=
+          Ceiling Fans,5,MTQ=
+          Heater,5,NTQ=
+          Kitchen Machine,5,NTk=
+          Kettle,5,NjA=
+          Desk Fans,4,MTM=
+          Food Processor,4,NTU=
+          Blender,4,NjE=
+          Box Fans,4,Nzk=
+          Water Filters,4,ODA=
+          Electric Grill,3,NTg=
+          Chopper,3,NjI=
+          Ice Box,3,ODI=
+          Instant Water Heater,3,OTY=
+          Electric Plate,3,Mjc2
+          Clothes Iron,2,NDQ=
+          Convection Microwave,2,OTI=
+          Hand Mixer,1,NTc=
+          Bagless Vacuum Cleaner,1,OTQ=
+          Air Fryer,1,MjEx
+          Electric Mosquito Killer,1,Mjc5
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,215,"1"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,192,"0"
+          Yes,23,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,208,"0"
+          Yes,7,"1"
+      - attribute: cost
+        label: Cost
+        count: 1
+        options[1]{label,count,value}:
+          1530_1540,1,1530_1540
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,53,"5431"
+          Black,44,"5432"
+          Silver,17,"5433"
+          Stainless,6,"5437"
+          Multiple,87,"5438"
+          Gray,8,"5519"
+    nodes[100]:
+      - id: 1087
+        name: Fresh Water Dispenser 2 Faucets -FW-17VFW  Closed Cabin
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500011769"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 5596.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 18
+        url_key: fresh-water-dispenser-2-faucets-fw-17vfw-closed-cabin
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5596.5
+            regular_price:
+              value: 5596.5
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Water Dispenser 2 Faucets -FW-17VFW  Closed Cabin
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Dispenser,appliance/water-appliances/water-dispenser
+      - id: 1061
+        name: Fresh Electric Water Heater VF OS 15 Liters
+        newFrom: "2024-02-06 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500015972"
+        special_from_date: "2023-10-06 00:00:00"
+        special_price: 2693.71
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 28
+        url_key: fresh-electric-water-heater-vf-os-15-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2496.6
+            regular_price:
+              value: 2496.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Electric Water Heater Marina 15 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 1026
+        name: Fresh Fire TV Heater 2000 Watt - Black
+        newFrom: "2023-11-28 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500017062"
+        special_from_date: "2023-11-03 00:00:00"
+        special_price: 4247.61
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-fire-tv-heater-2000-watt-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3936.8
+            regular_price:
+              value: 3936.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Fire Heater 2000 Watt - Black
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Heater,appliance/heater
+      - id: 1024
+        name: Fresh Chopper CH-300 1.5 Liters (300 W)
+        newFrom: "2023-11-28 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500017231"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 992.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 21
+        url_key: fresh-chopper-ch-300-1-5-liters-300-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 919.59
+            regular_price:
+              value: 919.59
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Chopper CH-300 1.5 Liters (300 W)
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Chopper,appliance/kitchen-machines/chopper
+      - id: 1017
+        name: "Fresh Wall Fan Pure 14 inch "
+        newFrom: "2023-11-15 00:00:00"
+        newTo: "2023-12-15 00:00:00"
+        sku: "500013224"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 984
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-wall-fan-pure-14-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 912
+            regular_price:
+              value: 912
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/9/_/9._wall_pure.png"
+          label: "Fresh Wall Fan Pure 14 inch "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Wall Mount Fans,appliance/fan/wall-mount-fans
+      - id: 1015
+        name: "Fresh Desk Fan Romantica 18  inch "
+        newFrom: "2023-11-15 00:00:00"
+        newTo: "2023-12-15 00:00:00"
+        sku: "500004747"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 1435
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-desk-fan-romantica-18-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1330
+            regular_price:
+              value: 1330
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_18_1_.png"
+          label: "Fresh Desk Fan Romantica 18  inch "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Desk Fans,appliance/fan/table-fans
+      - id: 1011
+        name: Fresh Stand Fan Turbo 16  inch piano
+        newFrom: "2023-11-15 00:00:00"
+        newTo: "2023-12-15 00:00:00"
+        sku: "500010880"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 1853.21
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-stand-fan-turbo-16-inch-piano
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1717.6
+            regular_price:
+              value: 1717.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_16_.png"
+          label: Fresh Stand Fan Turbo 16  inch piano
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 1010
+        name: Fresh Stand Fan Silent 16  inch piano
+        newFrom: "2023-11-15 00:00:00"
+        newTo: "2023-12-15 00:00:00"
+        sku: "500010881"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 1736
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-stand-fan-silent-16-inch-piano
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1736
+            regular_price:
+              value: 2170
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_1.png"
+          label: Fresh Stand Fan Silent 16  inch piano
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 971
+        name: Fresh Electric Water Heater VF  20 Liters
+        newFrom: "2023-10-12 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500008624"
+        special_from_date: "2023-10-06 00:00:00"
+        special_price: 2779.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-electric-water-heater-vf-20-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2576.4
+            regular_price:
+              value: 2576.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/0/500008624.png"
+          label: Fresh Electric Water Heater Marina 15 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 920
+        name: Fresh Air Cooler Turbo Black/25 Liters - FA-V25MB
+        newFrom: "2023-05-28 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500015619"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3202.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-air-cooler-turbo-black-25-liters-fa-v25mb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2967.8
+            regular_price:
+              value: 2967.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/2/5/25_l_black_gold.jpg"
+          label: Fresh Air Cooler Turbo Black/25 Liters - FA-V25MB
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 914
+        name: "Fresh Air Cooler Smart 60 - FA Burgundy "
+        newFrom: "2023-05-15 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500015046"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4649.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-air-cooler-smart-60-liters-fa-dark-rd
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4309.2
+            regular_price:
+              value: 4309.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/s/m/smart_dr.jpg"
+          label: "Fresh Air Cooler Smart 60 - FA Burgundy "
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 767
+        name: Fresh Fire Heater 2000 Watt - Black
+        newFrom: "2022-11-09 00:00:00"
+        newTo: "2022-11-30 00:00:00"
+        sku: "500015147"
+        special_from_date: "2023-11-03 00:00:00"
+        special_price: 3132.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-fire-heater-2000-watt-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2903.2
+            regular_price:
+              value: 2903.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_fire_heater_2000_watt_-_black.jpg"
+          label: Fresh Fire Heater 2000 Watt - Black
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Heater,appliance/heater
+      - id: 706
+        name: Fresh Air Cooler Turbo/40 Liters - FA-V40M
+        newFrom: "2022-06-12 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013833"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3960.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 20
+        url_key: fresh-air-cooler-turbo-40-liters-fa-v40m
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3670.8
+            regular_price:
+              value: 3670.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/t/u/turbo-40-analog.jpg"
+          label: Fresh Air Cooler Turbo/40 Liters - FA-V40M
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 705
+        name: Fresh Air Cooler Turbo Digital/40 Liters - FA-V40D
+        newFrom: "2022-06-12 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013834"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4309.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-air-cooler-turbo-digital-40-liters-fa-v40d
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3993.8
+            regular_price:
+              value: 3993.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/t/u/turbo-40-digital.jpg"
+          label: Fresh Air Cooler Turbo Digital/40 Liters - FA-V40D
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 704
+        name: Fresh Air Cooler Turbo Digital/25 Liters - FA-V25D
+        newFrom: "2022-06-12 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013832"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3944.21
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-air-cooler-turbo-digital-25-liters-fa-v25d
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3655.6
+            regular_price:
+              value: 3655.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/t/u/turbo-25-digital.jpg"
+          label: Fresh Air Cooler Turbo Digital/25 Liters - FA-V25D
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 703
+        name: Fresh Air Cooler Turbo/25 Liters - FA-V25M
+        newFrom: "2022-06-12 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013831"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3144.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-air-cooler-turbo-25-liters-fa-v25m
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2914.6
+            regular_price:
+              value: 2914.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/t/u/turbo-25-analog.jpg"
+          label: Fresh Air Cooler Turbo/25 Liters - FA-V25M
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 610
+        name: Fresh Hot Plate - Double - Ceramic  2800 W
+        newFrom: "2022-01-23 00:00:00"
+        newTo: "2022-02-05 00:00:00"
+        sku: "500013424"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2529.69
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 32
+        url_key: fresh-hot-plate-double-ceramic-2800-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2344.6
+            regular_price:
+              value: 2344.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hot_plate_-_double_-_ceramic_2800_w.png"
+          label: Fresh Hot Plate - Double - Ceramic  2800 W
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Electric Plate,appliance/electric-pallet
+      - id: 609
+        name: Fresh Hot Plate - Single - Ceramic 1500 W
+        newFrom: "2022-01-23 00:00:00"
+        newTo: "2022-02-05 00:00:00"
+        sku: "500013423"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1599
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 31
+        url_key: fresh-hot-plate-single-ceramic-1500-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1482
+            regular_price:
+              value: 1482
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hot_plate_-_single_-_ceramic_1500_w.png"
+          label: Fresh Hot Plate - Single - Ceramic 1500 W
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Electric Plate,appliance/electric-pallet
+      - id: 608
+        name: Fresh Hot Plate - Single - Stainless Steel 1500 W
+        newFrom: "2022-01-23 00:00:00"
+        newTo: "2022-02-05 00:00:00"
+        sku: "500013490"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1148
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 39
+        url_key: fresh-hot-plate-single-stainless-steel-1500-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1064
+            regular_price:
+              value: 1064
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hot_plate_-_single_-_stainless_steel_1500_w.png"
+          label: Fresh Hot Plate - Single - Stainless Steel 1500 W
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Electric Plate,appliance/electric-pallet
+      - id: 546
+        name: Fresh Air Cooler Victoria/50 Liters - FR-VI50M
+        newFrom: null
+        newTo: null
+        sku: "500011280"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 4698.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-air-cooler-victoria-50-liters-fr-el50m
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4354.8
+            regular_price:
+              value: 4354.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/5/0/50-front_1.jpg"
+          label: Fresh Air Cooler Victoria/50 Liters - FR-VI50M
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 545
+        name: Fresh Air Cooler Phantom/35 Liters - FR-FA35M
+        newFrom: null
+        newTo: null
+        sku: "500011030"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3575.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-air-cooler-fantom-35-liters-fr-fa35m
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3313.6
+            regular_price:
+              value: 3313.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/3/5/35-front.jpg"
+          label: Fresh Air Cooler Phantom/35 Liters - FR-FA35M
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 269
+        name: Fresh Electric Water Heater Marina 15 Liters
+        newFrom: null
+        newTo: null
+        sku: "500004668"
+        special_from_date: "2023-10-06 00:00:00"
+        special_price: 2693.71
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 15
+        url_key: fresh-electric-water-heater-marina-15-l
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2496.6
+            regular_price:
+              value: 2496.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_electric_water_heater_marina_15_liters.jpg"
+          label: Fresh Electric Water Heater Marina 15 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 241
+        name: Fresh Hand Mixer HM-400
+        newFrom: null
+        newTo: null
+        sku: "500011773"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 938.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-hand-mixer-hm-400
+        price_range:
+          maximum_price:
+            final_price:
+              value: 870.21
+            regular_price:
+              value: 870.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hand_mixer_hm-400.png"
+          label: Fresh Hand Mixer HM-400
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Mixer,appliance/kitchen-machines/hand-mixer
+      - id: 208
+        name: Fresh Microwave oven 25 L   FMW-25kC-S
+        newFrom: null
+        newTo: null
+        sku: "500013399"
+        special_from_date: "2020-07-21 00:00:00"
+        special_price: 6121.31
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-microwave-oven-25-l-fmw-25kc-s
+        price_range:
+          maximum_price:
+            final_price:
+              value: 5673.4
+            regular_price:
+              value: 5673.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/2/5/25_liter_girl_1.png"
+          label: Fresh Microwave oven 25 L   FMW-25kC-S
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Microwave,appliance/microwave
+          Solo Microwave,appliance/microwave/solo
+      - id: 147
+        name: Fresh Air Cooler Smart /60 Liters - FA M60W
+        newFrom: null
+        newTo: null
+        sku: "500010908"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4649.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-air-cooler-smart-60-liters-fa-m60w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4309.2
+            regular_price:
+              value: 4309.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/6/0/60-front.jpg"
+          label: Fresh Air Cooler Smart /60 Liters - FA M60W
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Air Cooler,appliance/air-cooler
+      - id: 248
+        name: Fresh Water Cooler 3 Liters
+        newFrom: null
+        newTo: null
+        sku: "500008995"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 143.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-cooler-3-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 133
+            regular_price:
+              value: 133
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_3_liter.png"
+          label: Fresh Water Cooler 3 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 249
+        name: Fresh Water Cooler 6 Liters
+        newFrom: null
+        newTo: null
+        sku: "500008113"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 221.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-cooler-6-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 205.2
+            regular_price:
+              value: 205.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_6_liters.png"
+          label: Fresh Water Cooler 6 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 250
+        name: Fresh Water Cooler 12 Liters
+        newFrom: null
+        newTo: null
+        sku: "500007750"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 311.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-cooler-12-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 288.8
+            regular_price:
+              value: 288.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_12_liters.jpg"
+          label: Fresh Water Cooler 12 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 260
+        name: Fresh Ice Box 8 Liters
+        newFrom: null
+        newTo: null
+        sku: "500009537"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 291.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-ice-box-8-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 269.79
+            regular_price:
+              value: 269.79
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_ice_box_8_liters.png"
+          label: Fresh Ice Box 8 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Ice Box,appliance/water-appliances/ice-box
+      - id: 251
+        name: Fresh Water Cooler 14 Liters
+        newFrom: null
+        newTo: null
+        sku: "500008080"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 332.09
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-cooler-12-liter-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 307.8
+            regular_price:
+              value: 307.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_14_liters.jpg"
+          label: Fresh Water Cooler 14 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 252
+        name: Fresh Water Cooler 16 Liters
+        newFrom: null
+        newTo: null
+        sku: "500006134"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 369.01
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-cooler-12-liter-2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 342
+            regular_price:
+              value: 342
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_16_liters.png"
+          label: Fresh Water Cooler 16 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 253
+        name: Fresh Water Cooler 22 Liters
+        newFrom: null
+        newTo: null
+        sku: "500006220"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 463.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-cooler-22-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 429.39
+            regular_price:
+              value: 429.39
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_22_liters.jpg"
+          label: Fresh Water Cooler 22 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 245
+        name: Fresh Kettle - 1.7 Liters Stainless Steel
+        newFrom: null
+        newTo: null
+        sku: "500011511"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 815.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 34
+        url_key: fresh-kettle-esk17154-1-7-liter-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 756.21
+            regular_price:
+              value: 756.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_kettle_-_esk17154_-_1.7_liters_stainless.png"
+          label: Fresh Kettle - ESK17154 - 1.7 Liters Stainless
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Kettle,appliance/kitchen-machines/kettles
+      - id: 533
+        name: Fresh Kettle - 1.7 Liters Plastic White
+        newFrom: null
+        newTo: null
+        sku: "500012672"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 770.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 16
+        url_key: fresh-kettle-1-7-liter-plastic-white
+        price_range:
+          maximum_price:
+            final_price:
+              value: 714.4
+            regular_price:
+              value: 714.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_kettle_-_1.7_liters_plastic_white.png"
+          label: Fresh Kettle - 1.7 Liters Plastic White
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Kettle,appliance/kitchen-machines/kettles
+      - id: 530
+        name: Fresh Kettle - 1.7 Liters Plastic Black
+        newFrom: null
+        newTo: null
+        sku: "500011638"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 770.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-kettle-1-7-liter-plastic-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 714.4
+            regular_price:
+              value: 714.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_kettle_-_1.7_liters_plastic_black_1.png"
+          label: Fresh Kettle - 1.7 Liters Plastic Black
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Kettle,appliance/kitchen-machines/kettles
+      - id: 244
+        name: Fresh Kettle - 1.7 Liters Glass LED
+        newFrom: null
+        newTo: null
+        sku: "500011386"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 795.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 33
+        url_key: fresh-kettle-egk17000-1-7-liter-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 737.2
+            regular_price:
+              value: 737.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_kettle_-_egk17000_-_1.7_liters_glass.jpg"
+          label: "Fresh Kettle - EGK17000 - 1.7 Liters Glass "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Kettle,appliance/kitchen-machines/kettles
+      - id: 186
+        name: Fresh Ventilator Glass - 20 cm
+        newFrom: null
+        newTo: null
+        sku: "500004529"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 758.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 24
+        url_key: fresh-ventilator-glass-15-cm-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 702.99
+            regular_price:
+              value: 702.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/2/_20_15_1.jpg"
+          label: Fresh Ventilator Glass - 20 cm
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ventilators,appliance/fan/ventilators
+      - id: 152
+        name: Fresh Fan Box  Boxer
+        newFrom: null
+        newTo: null
+        sku: "500004571"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 951.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-fan-box-boxer
+        price_range:
+          maximum_price:
+            final_price:
+              value: 881.6
+            regular_price:
+              value: 881.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_3.jpg"
+          label: Fresh Fan Box  Boxer
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Box Fans,appliance/fan/box-fans
+      - id: 234
+        name: Fresh Shabah Blender with Mill
+        newFrom: null
+        newTo: null
+        sku: "500010411"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 967.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 18
+        url_key: fresh-shabah-blender-with-mill
+        price_range:
+          maximum_price:
+            final_price:
+              value: 896.8
+            regular_price:
+              value: 896.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_shabah_blender_with_mill.jpg"
+          label: Fresh Shabah Blender with Mill
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Blender,appliance/kitchen-machines/blenders
+      - id: 983
+        name: "Fresh Steam Iron 2200 Watt - Wireless "
+        newFrom: "2023-10-22 00:00:00"
+        newTo: "2023-11-15 00:00:00"
+        sku: "500016474"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 1779.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-steam-iron-2200-w-wireless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1649.2
+            regular_price:
+              value: 1649.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_iron_cordless.png"
+          label: "Fresh Steam Iron 2200 Watt - Wireless "
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Clothes Iron,appliance/water-dispenser
+      - id: 982
+        name: Fresh Steam Iron 2200 Watt
+        newFrom: "2023-10-22 00:00:00"
+        newTo: "2023-11-15 00:00:00"
+        sku: "500016475"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 1246.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-steam-iron-2200-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1155.2
+            regular_price:
+              value: 1155.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_iron_cord.png"
+          label: Fresh Steam Iron 2200 Watt
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Clothes Iron,appliance/water-dispenser
+      - id: 235
+        name: Fresh Jumbo Blender with Mill
+        newFrom: null
+        newTo: null
+        sku: "500004526"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 922.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-jumbo-blender-with-mill
+        price_range:
+          maximum_price:
+            final_price:
+              value: 855
+            regular_price:
+              value: 855
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_jumbo_blender_with_mill.jpg"
+          label: Fresh Jumbo Blender with Mill
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Blender,appliance/kitchen-machines/blenders
+      - id: 254
+        name: Fresh Water Cooler 42 Liters
+        newFrom: null
+        newTo: null
+        sku: "500006135"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 881.49
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-cooler-42-liter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 816.99
+            regular_price:
+              value: 816.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_water_cooler_42_liters.png"
+          label: Fresh Water Cooler 42 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Appliances,appliance/water-appliances
+          Water Coleman,appliance/water-appliances/water-coolers
+      - id: 237
+        name: Fresh Chopper CH-400 1.5 Liters (400 W)
+        newFrom: null
+        newTo: null
+        sku: "500010532"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1049.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 53
+        url_key: fresh-chopper-ch-400-1-5-litter-400-w
+        price_range:
+          maximum_price:
+            final_price:
+              value: 972.81
+            regular_price:
+              value: 972.81
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chopper_ch-400_1.5_liters_400_w_.jpg"
+          label: Fresh Chopper CH-400 1.5 Liters (400 W)
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Chopper,appliance/kitchen-machines/chopper
+      - id: 236
+        name: Fresh Salsa Blender with Mill
+        newFrom: null
+        newTo: null
+        sku: "500004527"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1004.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-salsa-blender-with-mill
+        price_range:
+          maximum_price:
+            final_price:
+              value: 931
+            regular_price:
+              value: 931
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_salsa_blender_with_mill.jpg"
+          label: Fresh Salsa Blender with Mill
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Blender,appliance/kitchen-machines/blenders
+      - id: 182
+        name: "Fresh Wall Ventilator \"two direction\" 25 cm"
+        newFrom: null
+        newTo: null
+        sku: "500004583"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 955.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-wall-ventilator-one-direction-two-direction-25-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 885.4
+            regular_price:
+              value: 885.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/2/_25.jpg"
+          label: "Fresh Wall Ventilator \"two direction\" 25 cm"
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ventilators,appliance/fan/ventilators
+      - id: 151
+        name: Fresh FAN Box Magic
+        newFrom: null
+        newTo: null
+        sku: "500004488"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1164.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-fan-box-magic
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1079.19
+            regular_price:
+              value: 1079.19
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_44_3.jpg"
+          label: Fresh FAN Box Magic
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Box Fans,appliance/fan/box-fans
+      - id: 1035
+        name: Fresh Ventilator Wall  15 cm - Bathroom
+        newFrom: "2023-11-30 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500011728"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 533.01
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-ventilator-wall-15-cm-bathroom
+        price_range:
+          maximum_price:
+            final_price:
+              value: 494.01
+            regular_price:
+              value: 494.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Ventilator Wall  15 cm - Bathroom
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ventilators,appliance/fan/ventilators
+      - id: 1034
+        name: Fresh Ventilator Wall  20 cm - Bathroom
+        newFrom: "2023-11-30 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500011730"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 623.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-ventilator-wall-20-cm-bathroom
+        price_range:
+          maximum_price:
+            final_price:
+              value: 577.6
+            regular_price:
+              value: 577.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Ventilator Wall  20 cm - Bathroom
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ventilators,appliance/fan/ventilators
+      - id: 184
+        name: Fresh Ventilator Wall  30 cm
+        newFrom: null
+        newTo: null
+        sku: "500004530"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1033.19
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-ventilator-wall-hover-20-cm-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 957.6
+            regular_price:
+              value: 957.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/2/0/20_30_1.jpg"
+          label: Fresh Ventilator Wall  30 cm
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ventilators,appliance/fan/ventilators
+      - id: 568
+        name: Fresh Fan Ceiling Rafael LED
+        newFrom: null
+        newTo: null
+        sku: "500011890"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1394
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-fan-ceiling-rafael-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1276.8
+            regular_price:
+              value: 1276.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/a/fan-1.png"
+          label: Fresh Fan Ceiling Rafael LED
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ceiling Fans,appliance/fan/ceiling-fans
+      - id: 158
+        name: Fresh Fan Ceiling Rafael
+        newFrom: null
+        newTo: null
+        sku: "500004511"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 1340.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-fan-ceiling-rafael
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1223.6
+            regular_price:
+              value: 1223.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_9.jpg"
+          label: Fresh Fan Ceiling Rafael
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ceiling Fans,appliance/fan/ceiling-fans
+      - id: 160
+        name: Fresh Desk Fan Smart
+        newFrom: null
+        newTo: null
+        sku: "500004505"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1127.49
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-desk-fan-smart
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1045
+            regular_price:
+              value: 1045
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_11.jpg"
+          label: Fresh Desk Fan Smart
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Desk Fans,appliance/fan/table-fans
+      - id: 150
+        name: Fresh Fan Box Amar
+        newFrom: null
+        newTo: null
+        sku: "500004499"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1230
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 11
+        url_key: fresh-fan-box-amar
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1140
+            regular_price:
+              value: 1140
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_44_2.jpg"
+          label: Fresh Fan Box Amar
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Box Fans,appliance/fan/box-fans
+      - id: 1029
+        name: Fresh Insect Killer 4000 Watt  - 2 Candle
+        newFrom: "2023-11-28 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500016166"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1562.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-insect-killer-4000-watt-2-candle
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1447.8
+            regular_price:
+              value: 1447.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Heater 2000 Watt - 2D - 3 Candle
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Mosquito Killer,appliance/electric-mosquito-killer
+      - id: 768
+        name: Fresh Heater 1200 Watt - 2D - 3 Candle
+        newFrom: "2022-11-09 00:00:00"
+        newTo: "2022-11-30 00:00:00"
+        sku: "500015025"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1377.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 11
+        url_key: fresh-heater-2000-watt-2d-3-candle
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1276.8
+            regular_price:
+              value: 1276.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_heater_2000_watt_-_2d_-_3_candle.png"
+          label: Fresh Heater 2000 Watt - 2D - 3 Candle
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Heater,appliance/heater
+      - id: 611
+        name: Fresh Heater 2000 Watt - 3D - 5 Candle
+        newFrom: "2022-01-23 00:00:00"
+        newTo: "2022-02-05 00:00:00"
+        sku: "500014843"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1508.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-heater-2000-watt-3d
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1398.4
+            regular_price:
+              value: 1398.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_heater_2000_watt_-_3d_-_5_candle.png"
+          label: Fresh Heater 2000 Watt - 3D - 5 Candle
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Heater,appliance/heater
+      - id: 259
+        name: Fresh Heater 2100 Watt - Quratez PSM-210
+        newFrom: null
+        newTo: null
+        sku: "500010583"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1508.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-heater-2100-watt-quratez-psm-210
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1398.4
+            regular_price:
+              value: 1398.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_heater_2100_watt_-_quratez_psm-210.jpg"
+          label: Fresh Heater 2100 Watt - Quratez PSM-210
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Heater,appliance/heater
+      - id: 161
+        name: Fresh Desk Fan Queen
+        newFrom: null
+        newTo: null
+        sku: "500004479"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1242.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-desk-fan-queen
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1151.4
+            regular_price:
+              value: 1151.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_12.jpg"
+          label: Fresh Desk Fan Queen
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Desk Fans,appliance/fan/table-fans
+      - id: 149
+        name: Fresh Fan Box Circular
+        newFrom: null
+        newTo: null
+        sku: "500004487"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1480.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 11
+        url_key: fresh-fan-box-circular
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1371.8
+            regular_price:
+              value: 1371.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_43_18.jpg"
+          label: Fresh Fan Box Circular
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Box Fans,appliance/fan/box-fans
+      - id: 162
+        name: Fresh Desk Fan EL- Amira
+        newFrom: null
+        newTo: null
+        sku: "500004483"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1283.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 17
+        url_key: fresh-desk-fan-el-amira
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1189.41
+            regular_price:
+              value: 1189.41
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_13.jpg"
+          label: Fresh Desk Fan EL- Amira
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Desk Fans,appliance/fan/table-fans
+      - id: 587
+        name: Fresh Hand Blender  HP-600 Black
+        newFrom: null
+        newTo: null
+        sku: "500012830"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1266.89
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 16
+        url_key: fresh-hand-blender-hp-600-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1174.2
+            regular_price:
+              value: 1174.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hand_blender_hp-600_black.jpg"
+          label: Fresh Hand Blender  HP-600 Black
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Blender,appliance/kitchen-machines/hand-blender
+      - id: 534
+        name: Fresh Hand Blender  HP-600 White
+        newFrom: null
+        newTo: null
+        sku: "500012732"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1266.89
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 19
+        url_key: fresh-hand-blender-hp-600-white
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1174.2
+            regular_price:
+              value: 1174.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hand_blender_hp-600_white.png"
+          label: Fresh Hand Blender  HP-600 White
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Blender,appliance/kitchen-machines/hand-blender
+      - id: 239
+        name: Fresh Hand Blender HB-800N
+        newFrom: null
+        newTo: null
+        sku: "500011441"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1615.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-hand-blender-hb-800n
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1497.2
+            regular_price:
+              value: 1497.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_hand_blender_hb-800n.jpg"
+          label: Fresh Hand Blender HB-800N
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Blender,appliance/kitchen-machines/hand-blender
+      - id: 180
+        name: Fresh Wall Fan Brilliant 16 Inch
+        newFrom: null
+        newTo: null
+        sku: "500004513"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 1406.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-wall-fan-brilliant-16-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1303.41
+            regular_price:
+              value: 1303.41
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_16_1.jpg"
+          label: Fresh Wall Fan Brilliant 16 Inch
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Wall Mount Fans,appliance/fan/wall-mount-fans
+      - id: 171
+        name: Fresh Stand Fan Galaxy 16 inch
+        newFrom: null
+        newTo: null
+        sku: "500004574"
+        special_from_date: "2023-11-06 00:00:00"
+        special_price: 1435
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-stand-fan-galaxy-16-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1330
+            regular_price:
+              value: 1330
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_16.jpg"
+          label: Fresh Stand Fan Galaxy 16 inch
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 167
+        name: Fresh Stand Fan Magic 14 inch
+        newFrom: null
+        newTo: null
+        sku: "500004486"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1426.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-stand-fan-magic-14-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1322.4
+            regular_price:
+              value: 1322.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_14.jpg"
+          label: Fresh Stand Fan Magic 14 inch
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 980
+        name: Fresh Stand Fan Amar 14 inch Remote
+        newFrom: "2023-10-18 00:00:00"
+        newTo: "2023-10-31 00:00:00"
+        sku: "500004497"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2115.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-stand-fan-amar-14-inch-remote
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1960.8
+            regular_price:
+              value: 1960.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/s/t/stand_amar.png"
+          label: Fresh Stand Fan Amar 14 inch Remote
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 168
+        name: Fresh Stand Fan Amar 14 inch
+        newFrom: null
+        newTo: null
+        sku: "500004508"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1447.31
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-stand-fan-amar-14-inch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1341.4
+            regular_price:
+              value: 1341.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_14.jpg"
+          label: Fresh Stand Fan Amar 14 inch
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 179
+        name: Fresh Wall Fan 16 inch with Remote
+        newFrom: null
+        newTo: null
+        sku: "500004535"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1799.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 8
+        url_key: fresh-wall-fan-16-inch-with-remote
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1668.2
+            regular_price:
+              value: 1668.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/1/_16__1.jpg"
+          label: Fresh Wall Fan 16 inch with Remote
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Wall Mount Fans,appliance/fan/wall-mount-fans
+      - id: 1079
+        name: Fresh Hand Blender HB-1100B
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500017438"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1779.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 17
+        url_key: fresh-hand-blender-hb-1100b
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1649.2
+            regular_price:
+              value: 1649.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Hand Blender HB-1100FO "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Blender,appliance/kitchen-machines/hand-blender
+      - id: 1077
+        name: Fresh Hand Blender HB-1100CH
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500017451"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2685.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-hand-blender-hb-1100ch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2489.01
+            regular_price:
+              value: 2489.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Hand Blender HB-1100FO "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Hand Blender,appliance/kitchen-machines/hand-blender
+      - id: 175
+        name: Fresh Stand Fan Top Piano
+        newFrom: null
+        newTo: null
+        sku: "500009090"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1898.29
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-stand-fan-top-piano
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1759.4
+            regular_price:
+              value: 1759.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_5.jpg"
+          label: Fresh Stand Fan Top Piano
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 159
+        name: Fresh Fan Ceiling Karyoka Cycle
+        newFrom: null
+        newTo: null
+        sku: "500012547"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 1537.51
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 11
+        url_key: fresh-fan-ceiling-karyoka-cycle
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1425
+            regular_price:
+              value: 1425
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_45_10.jpg"
+          label: Fresh Fan Ceiling Karyoka Cycle
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ceiling Fans,appliance/fan/ceiling-fans
+      - id: 481
+        name: Fresh wall Fan Shabah 20 inch with remote
+        newFrom: null
+        newTo: null
+        sku: "500008741"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 2131.99
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-fan-wall-shabah-20-inch-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 1976
+            regular_price:
+              value: 1976
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/_/2/_20__2_4.jpg"
+          label: Fresh wall Fan Shabah 20 inch with remote
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Wall Mount Fans,appliance/fan/wall-mount-fans
+      - id: 223
+        name: Fresh Casa Oven - 45 Liters (Grill)
+        newFrom: null
+        newTo: null
+        sku: "500010781"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2812.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-black-oven-casa-45-liter-grill
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2606.8
+            regular_price:
+              value: 2606.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_casa_oven_-_45_liters_grill_.jpg"
+          label: Fresh Casa Oven - 45 Liters (Grill)
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 174
+        name: Fresh Stand Fan  Top Remote
+        newFrom: null
+        newTo: null
+        sku: "500009092"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2394.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-stand-fan-top-remote
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2219.19
+            regular_price:
+              value: 2219.19
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/i/file_18.jpg"
+          label: Fresh Stand Fan  Top Remote
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Stand Fans,appliance/fan/stand-fans
+      - id: 154
+        name: Fresh Fan Ceiling 3 Lamp
+        newFrom: null
+        newTo: null
+        sku: "500004477"
+        special_from_date: "2023-10-06 00:00:00"
+        special_price: 2267.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-fan-ceiling-3-lamp
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2101.4
+            regular_price:
+              value: 2101.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/3/_/3_.jpg"
+          label: Fresh Fan Ceiling 3 Lamp
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Fans,appliance/fan
+          Ceiling Fans,appliance/fan/ceiling-fans
+      - id: 532
+        name: Fresh Healthy Grill Black HG 2000
+        newFrom: null
+        newTo: null
+        sku: "500012356"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2168.91
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-healthy-grill-black-hg-2000
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2010.21
+            regular_price:
+              value: 2010.21
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_healthy_grill_black_hg_2000.png"
+          label: Fresh Healthy Grill Black HG 2000
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Electric Grill,appliance/kitchen-machines/healthy-grill
+      - id: 890
+        name: Fresh Vacuum Cleaner Spider 1500 Watt with Bag - Orange
+        newFrom: "2023-02-23 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500015707"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3255.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-vacuum-cleaner-spider-1500-w-bag-orange
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3017.2
+            regular_price:
+              value: 3017.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_spider_1500_w_bag_-_orange.jpg"
+          label: Fresh Vacuum Cleaner Spider 1500 W Bag - Orange
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 889
+        name: Fresh Vacuum Cleaner Spider 1500 Watt with Bag - Black
+        newFrom: "2023-02-23 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500004515"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3255.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-vacuum-cleaner-spider-1500-w-bag-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3017.2
+            regular_price:
+              value: 3017.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_spider_1500_w_bag_-_black.jpg"
+          label: Fresh Vacuum Cleaner Spider 1500 Watt with Bag - Black
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 888
+        name: Fresh Vacuum Cleaner Spider 1500 Watt with Bag - Blue
+        newFrom: "2023-02-23 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500013004"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3255.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-vacuum-cleaner-spider-1500-w-bag-blue
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3017.2
+            regular_price:
+              value: 3017.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_spider_1500_w_bag_-_blue.jpg"
+          label: Fresh Vacuum Cleaner Spider 1500 W Bag - Blue
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 229
+        name: Fresh Vacuum Cleaner Spider 1500 Watt with Bag - Red
+        newFrom: null
+        newTo: null
+        sku: "500010797"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3255.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-vacuum-cleaner-spider-1500-w-bag
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3017.2
+            regular_price:
+              value: 3017.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_spider_1500_w_bag.jpg"
+          label: Fresh Vacuum Cleaner Spider 1500 W Bag
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 1025
+        name: Fresh Panorama Air Fryer Oven - 45 Liters (Without Led)
+        newFrom: "2023-11-28 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500016635"
+        special_from_date: "2023-11-05 00:00:00"
+        special_price: 7773.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 14
+        url_key: fresh-panorama-air-fryer-oven-45-liters-without-led
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7204.8
+            regular_price:
+              value: 7204.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Panorama Air Fryer Oven - 45 Liters
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 918
+        name: Fresh Panorama Air Fryer Oven - 45 Liters
+        newFrom: "2023-05-24 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500015550"
+        special_from_date: "2023-11-05 00:00:00"
+        special_price: 8478.81
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 15
+        url_key: fresh-oven-panorama-45-liter-fr-45-oven-and-air-fryer
+        price_range:
+          maximum_price:
+            final_price:
+              value: 7858.41
+            regular_price:
+              value: 7858.41
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_panorama_air_fryer_oven_-_45_liters.jpg"
+          label: Fresh Panorama Air Fryer Oven - 45 Liters
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 225
+        name: Fresh Elite Oven - 45 Liters (Grill and Fan)
+        newFrom: null
+        newTo: null
+        sku: "500011100"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3087.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 14
+        url_key: fresh-black-oven-elite-45-liter-grill-and-fan
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2861.4
+            regular_price:
+              value: 2861.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_elite_oven_-_45_liters_grill_and_fan_.jpg"
+          label: Fresh Elite Oven - 45 Liters (Grill and Fan)
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 887
+        name: Fresh Vacuum Cleaner Faster 1600 Watt with Bag - Black
+        newFrom: "2023-02-13 00:00:00"
+        newTo: "2023-03-31 00:00:00"
+        sku: "500004518"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3374.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-vacuum-cleaner-faster-1600-w-bag-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3127.4
+            regular_price:
+              value: 3127.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_faster_1600_w_bag_-_black.jpg"
+          label: "Fresh Vacuum Cleaner Faster 1600 W Bag - Black\r\n"
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 233
+        name: Fresh Vacuum Cleaner Faster 1600 Watt with Bag - Red
+        newFrom: null
+        newTo: null
+        sku: "500010785"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3374.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 11
+        url_key: fresh-vacuum-cleaner-faster-1600-w-bag
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3127.4
+            regular_price:
+              value: 3127.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_vacuum_cleaner_faster_1600_w_bag_1.jpg"
+          label: Fresh Vacuum Cleaner Faster 1600 Watt with Bag - Red
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Vacuum Cleaner,appliance/vacuum-cleaner
+          Vacuum Cleaner With a Bag,appliance/vacuum-cleaner/bag
+      - id: 270
+        name: Fresh Electric Water Heater Relax 30 Liters
+        newFrom: null
+        newTo: null
+        sku: "500014261"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2841.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 15
+        url_key: fresh-electric-water-heater-relax-30-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2633.4
+            regular_price:
+              value: 2633.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_electric_water_heater_relax_30_liters.jpg"
+          label: Fresh Electric Water Heater Relax 30 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 589
+        name: Fresh Plaza Oven - 48 Liters (Grill and Fan)
+        newFrom: null
+        newTo: null
+        sku: "500007595"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3444
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-black-oven-plaza-fr-48
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3192
+            regular_price:
+              value: 3192
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_plaza_oven_-_48_liters_grill_and_fan_.jpg"
+          label: Fresh Plaza Oven - 48 Liters (Grill and Fan)
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 520
+        name: Fresh Eco Oven - 48 Liters (Grill and Fan)
+        newFrom: null
+        newTo: null
+        sku: "500006450"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3226.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 28
+        url_key: fresh-black-oven-eco-fr-48-48-liters-grill-and-fan
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2990.6
+            regular_price:
+              value: 2990.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_eco_oven_-_48_liters_grill_and_fan_.jpg"
+          label: Fresh Eco Oven - 48 Liters (Grill and Fan)
+        categories[2]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Electric Oven,appliance/electric-oven
+      - id: 274
+        name: Fresh Electric Water Heater Venus 30 Liters
+        newFrom: null
+        newTo: null
+        sku: "500004669"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2849.51
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-electric-water-heater-venus-30-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2641
+            regular_price:
+              value: 2641
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_electric_water_heater_venus_30_liters.jpg"
+          label: Fresh Electric Water Heater Venus 30 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 701
+        name: "Fresh Food Processor FP421 - 750 Watt - Stainless "
+        newFrom: "2022-05-24 00:00:00"
+        newTo: "2022-06-15 00:00:00"
+        sku: "500013807"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 3472.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 8
+        url_key: fresh-food-processor-fp421-750-watt-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3218.6
+            regular_price:
+              value: 3218.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_food_processor_fp421_-_750_watt_-_stainless.jpg"
+          label: "Fresh Food Processor FP421 - 750 Watt - Stainless "
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Food Processor,appliance/kitchen-machines/food-processor
+      - id: 471
+        name: Fresh Food Processor FP402 - (27 in 1) 1000 Watt -Gray
+        newFrom: null
+        newTo: null
+        sku: "500010767"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4177.91
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-food-processor-fp402-27-in-1-1000-watt-gray
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3872.2
+            regular_price:
+              value: 3872.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_food_processor_fp402_-_27_in_1_1000_watt_-gray.png"
+          label: Fresh Food Processor FP402 - (27 in 1) 1000 Watt -Gray
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Food Processor,appliance/kitchen-machines/food-processor
+      - id: 472
+        name: Fresh Food Processor FP402 - (27 in 1) 1000 Watt - Black
+        newFrom: null
+        newTo: null
+        sku: "500011350"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4177.91
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-food-processor-fp402-27-in-1-1000-watt-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3872.2
+            regular_price:
+              value: 3872.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_food_processor_fp402_-_27_in_1_1000_watt_-_black.png"
+          label: Fresh Food Processor FP402 - (27 in 1) 1000 Watt - Black
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Kitchen Appliances,appliance/kitchen-machines
+          Food Processor,appliance/kitchen-machines/food-processor
+      - id: 271
+        name: Fresh Electric Water Heater Relax 40 Liters
+        newFrom: null
+        newTo: null
+        sku: "500014263"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2988.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 13
+        url_key: fresh-electric-water-heater-relax-40-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2770.2
+            regular_price:
+              value: 2770.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_electric_water_heater_relax_40_liters.jpg"
+          label: Fresh Electric Water Heater Relax 40 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 275
+        name: Fresh Electric Water Heater Venus 40 Liters
+        newFrom: null
+        newTo: null
+        sku: "500004670"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 2993
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-electric-water-heater-venus-40-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 2774
+            regular_price:
+              value: 2774
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_electric_water_heater_venus_40_liters.jpg"
+          label: Fresh Electric Water Heater Venus 40 Liters
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Water Heaters,appliance/heaters
+          Electric Water Heater,appliance/heaters/electric-heater
+      - id: 729
+        name: Fresh Microwave Oven 20L Mirror FMW-20MC-SM
+        newFrom: "2022-07-03 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500013853"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 4751.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-microwave-oven-20-l-mirror-fmw-20mc-sm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4404.2
+            regular_price:
+              value: 4404.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_microwave_oven_20l_mirror_fmw-20mc-sm.png"
+          label: Fresh Microwave Oven 20L Mirror FMW-20MC-SM
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Microwave,appliance/microwave
+          Solo Microwave,appliance/microwave/solo
+      - id: 595
+        name: Fresh Microwave Oven 20L White FMW-MCP
+        newFrom: null
+        newTo: null
+        sku: "500013570"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4637.1
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-microwave-oven-20-l-white-fmw-mcp
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4297.8
+            regular_price:
+              value: 4297.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_microwave_oven_20l_white_fmw-mcp.jpg"
+          label: Fresh Microwave Oven 20L White FMW-MCP
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Microwave,appliance/microwave
+          Solo Microwave,appliance/microwave/solo
+      - id: 529
+        name: Fresh Microwave Oven 20L Black
+        newFrom: null
+        newTo: null
+        sku: "500013573"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 4538.69
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 12
+        url_key: fresh-microwave-oven-20-l-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 4206.6
+            regular_price:
+              value: 4206.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_microwave_oven_20l_black.png"
+          label: Fresh Microwave Oven 20L Black
+        categories[3]{name,url_path}:
+          "Small Home Appliances ",appliance
+          Microwave,appliance/microwave
+          Solo Microwave,appliance/microwave/solo

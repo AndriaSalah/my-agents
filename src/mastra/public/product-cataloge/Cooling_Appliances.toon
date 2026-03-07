@@ -1,0 +1,1970 @@
+data:
+  connection:
+    aggregations[6]:
+      - attribute: price
+        label: Price
+        count: 4
+        options[4]{label,count,value}:
+          0-10000,1,0_10000
+          10000-20000,16,10000_20000
+          20000-30000,62,20000_30000
+          30000-40000,1,30000_40000
+      - attribute: category_uid
+        label: Category
+        count: 7
+        options[7]{label,count,value}:
+          Cooling Appliances,80,ODY=
+          Refrigerators,52,MjA=
+          No-Frost Refrigerators,51,NjM=
+          Deep Freezers,28,Njc=
+          Chest Freezers,15,Njk=
+          Upright Freezers,13,Njg=
+          De-Frost Refrigerators,1,NjQ=
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,80,"1"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,77,"0"
+          Yes,3,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,73,"0"
+          Yes,7,"1"
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,0,"5431"
+          Black,36,"5432"
+          Silver,4,"5433"
+          Stainless,15,"5437"
+          Multiple,25,"5438"
+          Gray,0,"5519"
+    nodes[80]:
+      - id: 474
+        name: "Fresh Refrigerator 397 Liters Harmony Glass - Black / FNT-MR470 YGَQB "
+        newFrom: null
+        newTo: null
+        sku: "500011893"
+        special_from_date: "2023-10-25 00:00:00"
+        special_price: 24605
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-refrigerator-fnt-mr470-yg-qb-397-liters-glass-harmony
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24605
+            regular_price:
+              value: 24605
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_yg_qb_397_liters_glass-harmony.jpg"
+          label: "Fresh Refrigerator FNT-MR470 YGَQB ,397 Liters Glass-Harmony"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 88
+        name: "Fresh Chest Freezer FDF-130 , 107 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500007433"
+        special_from_date: "2023-10-05 00:00:00"
+        special_price: 8973.91
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-chest-freezer-fdf-130-107-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8973.91
+            regular_price:
+              value: 8973.91
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-130_107_liters.jpg"
+          label: "Fresh Chest Freezer FDF-130 , 107 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 90
+        name: "Fresh Chest Freezer FDF-220, 165 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010777"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 10522.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-chest-freezer-fdf-220-165-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 10522.2
+            regular_price:
+              value: 10522.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-220_165_liters.jpg"
+          label: "Fresh Chest Freezer FDF-220, 165 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 91
+        name: "Fresh Chest Freezer FDF-270, 200 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010470"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11520.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-chest-freezer-fdf-270-200-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11520.6
+            regular_price:
+              value: 11520.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-270_200_liters.jpg"
+          label: "Fresh Chest Freezer FDF-270, 200 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 82
+        name: Fresh De-Frost Refrigerator /FDD-B315 BS
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500006363"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 14679.39
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-refrigerator-de-frost-fdd-b315-bs
+        price_range:
+          maximum_price:
+            final_price:
+              value: 14679.39
+            regular_price:
+              value: 14679.39
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/d/fdd-315.jpg"
+          label: Fresh De-Frost Refrigerator /FDD-B315 BS
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          De-Frost Refrigerators,cooling-appliances/refrigerators/de-frost-refrigerators
+          Cooling Appliances,cooling-appliances
+      - id: 933
+        name: "Fresh Chest Freezer FDF-330 Turbo  , 255 Liters Digital"
+        newFrom: "2023-05-30 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500003320"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13513.5
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-chest-freezer-fdf-330-turbo-255-liters-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13513.5
+            regular_price:
+              value: 13513.5
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/d/e/deep-freezer1-front-v02_1_1.jpg"
+          label: "Fresh Chest Freezer FDF-330 Turbo  , 255 Liters Digital"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 932
+        name: "Fresh Chest Freezer FDF-270 Turbo  , 200 Liters Digital"
+        newFrom: "2023-05-30 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500003321"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11961.3
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-chest-freezer-fdf-270-turbo-200-liters-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11961.3
+            regular_price:
+              value: 11961.3
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/d/e/deep-freezer1-front-v02_1.jpg"
+          label: "Fresh Chest Freezer FDF-270 Turbo  , 200 Liters Digital"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 929
+        name: "Fresh Chest Freezer FDF-270 Extra , 200 Liters Black"
+        newFrom: "2023-05-30 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500008332"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11629.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-chest-freezer-fdf-270-extra-200-liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11629.8
+            regular_price:
+              value: 11629.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-330_extra_255_liters_black_1.jpg"
+          label: "Fresh Chest Freezer FDF-330 Extra , 255 Liters Black"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 640
+        name: "Fresh Chest Freezer FDF-330 Extra , 255 Liters Black"
+        newFrom: "2022-03-21 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500008334"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13182
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-chest-freezer-fdf-330-extra-255-liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13182
+            regular_price:
+              value: 13182
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-330_extra_255_liters_black.jpg"
+          label: "Fresh Chest Freezer FDF-330 Extra , 255 Liters Black"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 92
+        name: "Fresh Chest Freezer FDF-330 , 255 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010471"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 13068.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-chest-freezer-fdf-330-255-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 13068.9
+            regular_price:
+              value: 13068.9
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-330_255_liters.jpg"
+          label: "Fresh Chest Freezer FDF-330 , 255 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 93
+        name: "Fresh Chest Freezer FDF-400 , 334 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010799"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 15174.9
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-chest-freezer-fdf-400-334-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 15174.9
+            regular_price:
+              value: 15174.9
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-400_334_liters.jpg"
+          label: "Fresh Chest Freezer FDF-400 , 334 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 94
+        name: "Fresh Chest Freezer FDF-480 , 403 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010802"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 16614
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-480-403-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 16614
+            regular_price:
+              value: 16614
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-480_403_liters.jpg"
+          label: "Fresh Chest Freezer FDF-480 , 403 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 71
+        name: Fresh Refrigerator 329 Liters - Black / FNT-BR 370 BB
+        newFrom: null
+        newTo: null
+        sku: "500009015"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 19425.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 9
+        url_key: fresh-refrigerator-fnt-br-370-b-329-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 19425.6
+            regular_price:
+              value: 19965.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br_370_bb_329_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-BR 370 BB ,329 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 57
+        name: Fresh Refrigerator 369 Liters - Black / FNT-BR400 BB
+        newFrom: null
+        newTo: null
+        sku: "500006949"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 21477.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-br400-b-369-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21477.6
+            regular_price:
+              value: 21477.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br400_bb_369_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-BR400 BB ,369 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 76
+        name: Fresh Refrigerator 369 Liters - Black / FNT-B400 BB 369
+        newFrom: null
+        newTo: null
+        sku: "500006384"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21530.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-refrigerator-fnt-b400-b-369-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21530.8
+            regular_price:
+              value: 21530.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b400_bb_369_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-B400 BB,369 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 454
+        name: "Fresh Refrigerator 369 Liters - Black / FNT-BR 400 KB "
+        newFrom: null
+        newTo: null
+        sku: "500008345"
+        special_from_date: "2020-07-04 00:00:00"
+        special_price: 21584
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-refrigerator-fnt-br-370-k-329-liters-2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21584
+            regular_price:
+              value: 21584
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br_400_kb_369_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-BR 400 KB , 369 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 453
+        name: Fresh Refrigerator 369 Liters - Stainless Steel / FNT-BR 400 KT
+        newFrom: null
+        newTo: null
+        sku: "500006948"
+        special_from_date: "2020-07-04 00:00:00"
+        special_price: 21584
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-br-370-k-329-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21584
+            regular_price:
+              value: 21584
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br_400_kt_369_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-BR 400 KT, 369 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 456
+        name: Fresh Refrigerator 369 Liters - Stainless Steel /FNT-B400 KT
+        newFrom: null
+        newTo: null
+        sku: "500006795"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21584
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-b400-kt-369-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21584
+            regular_price:
+              value: 21584
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b400_kt_369_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-B400 KT,369 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 457
+        name: Fresh Refrigerator 369 Liters - Black / FNT-B400 KB
+        newFrom: null
+        newTo: null
+        sku: "500006797"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21584
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-refrigerator-fnt-b400-kt-369-liters-stainless-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21584
+            regular_price:
+              value: 21584
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b400_kb_369_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-B400 KB, 369 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 463
+        name: "Fresh Upright Freezer FNU-MT270B , 6 Drawers Touch Black"
+        newFrom: null
+        newTo: null
+        sku: "500012318"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24367.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-upright-freezer-fnu-mt270-6-drawers-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24367.2
+            regular_price:
+              value: 24367.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-mt270b_6_drawers_touch_black.jpg"
+          label: "Fresh Upright Freezer FNU-MT270B , 6 Drawers Touch Black"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 84
+        name: "Fresh Upright Freezer FNU-MT270T , 6 Drawers Touch Stainless"
+        newFrom: null
+        newTo: null
+        sku: "500012316"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24367.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-upright-freezer-fnu-mt270-6-drawers
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24367.2
+            regular_price:
+              value: 24367.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-mt270t_6_drawers_touch_stainless.jpg"
+          label: "Fresh Upright Freezer FNU-MT270T , 6 Drawers Touch Stainless"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 459
+        name: Fresh Refrigerator 397 Liters - Black /FNT-B470 KB
+        newFrom: null
+        newTo: null
+        sku: "500006793"
+        special_from_date: "2023-10-12 00:00:00"
+        special_price: 22773.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-b470-k-397-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22773.4
+            regular_price:
+              value: 22773.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b470_kb_397_liters_black_4.jpg"
+          label: "Fresh Refrigerator FNT-B470 KB ,397 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 923
+        name: Fresh Refrigerator 397 Liters - Black Glossy / FNT-B470 KBM
+        newFrom: "2023-05-28 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500008806"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22773.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-refrigerator-fnt-b470-kbm-397-liters-black-mirror
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22773.4
+            regular_price:
+              value: 22773.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/4/b470bm.jpg"
+          label: Fresh Refrigerator 397 Liters - Black Glossy / FNT-B470 KBM
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 917
+        name: Fresh Refrigerator 397 Liters - Stainless Steel / FNT-B470 CT
+        newFrom: "2023-05-23 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500012143"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22773.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-refrigerator-fnt-b470-ct-397-c-r-h-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22773.4
+            regular_price:
+              value: 22773.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b470_kt_397_liters_stainless_1.jpg"
+          label: "Fresh Refrigerator FNT-B470 KT, 397 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 79
+        name: Fresh Refrigerator 397 Liters Stainless Steel / FNT-B470 KT
+        newFrom: null
+        newTo: null
+        sku: "500006790"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22879.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-refrigerator-fnt-b470-k-397-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22879.8
+            regular_price:
+              value: 22879.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-b470_kt_397_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-B470 KT, 397 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1048
+        name: "Fresh Upright Freezer FNU-LR250BC ,5 Drawers Black - Inner Hand"
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500017159"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20330.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-upright-freezer-fnu-lr250bc-5-drawers-black-inner-hand
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20330.7
+            regular_price:
+              value: 20330.7
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Upright Freezer FNU-L250S ,5 Drawers Silver LG Compressor"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 1047
+        name: "Fresh Upright Freezer FNU-LR250S ,5 Drawers Silver - Inner Hand"
+        newFrom: "2024-02-05 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500017158"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 20330.7
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-upright-freezer-fnu-lr250s-5-drawers-silver-inner-hand
+        price_range:
+          maximum_price:
+            final_price:
+              value: 20330.7
+            regular_price:
+              value: 20330.7
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Upright Freezer FNU-L250S ,5 Drawers Silver LG Compressor"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 495
+        name: "Fresh Upright Freezer  FNU-L250BC ,5 Drawers Black LG Compressor"
+        newFrom: null
+        newTo: null
+        sku: "500011696"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21044.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-upright-freezer-fnu-l250bc-lg-5-drawers-black-lg-compressor
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21044.4
+            regular_price:
+              value: 21044.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-l250bc_5_drawers_black_lg_compressor.png"
+          label: "Fresh Upright Freezer  FNU-L250BC ,5 Drawers Black LG Compressor"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 482
+        name: "Fresh Upright Freezer FNU-L250S ,5 Drawers Silver"
+        newFrom: null
+        newTo: null
+        sku: "500010842"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 21044.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-upright-freezer-fnu-l250s-5-drawers-silver-lg-compressor
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21044.4
+            regular_price:
+              value: 21044.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-l250s_5_drawers_silver_lg_compressor.png"
+          label: "Fresh Upright Freezer FNU-L250S ,5 Drawers Silver LG Compressor"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 642
+        name: Fresh Refrigerator 471 Liters - Burgundy /FNT-M580 YGDR
+        newFrom: null
+        newTo: null
+        sku: "500012040"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 29138.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-m580-ygdr-471-liters-dark-red
+        price_range:
+          maximum_price:
+            final_price:
+              value: 29138.4
+            regular_price:
+              value: 29138.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m580_ygdr_471_liters_dark_red_1.jpg"
+          label: "Fresh Refrigerator FNT-M580 YGDR ,471 Liters Dark Red"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 622
+        name: Fresh Refrigerator 471 Liters - Black /FNT-M580 YB
+        newFrom: null
+        newTo: null
+        sku: "500010660"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 27952.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-m580yb471-liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 27952.8
+            regular_price:
+              value: 27952.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m580_yb_471_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-M580 YB ,471 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 621
+        name: Fresh Refrigerator 426 Liters - Black /FNT-M540 YB
+        newFrom: null
+        newTo: null
+        sku: "500010664"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 26011
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-refrigerator-fnt-m540-yb-426-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26011
+            regular_price:
+              value: 26011
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m540_yb_426_liters_black_1.jpg"
+          label: "Fresh Refrigerator FNT-M540 YB ,426 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 83
+        name: Fresh Upright Freezer  FNU-MT300T - 7 Drawers Touch Stainless
+        newFrom: null
+        newTo: null
+        sku: "500012312"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 26582.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-upright-freezer-fnu-mt300-7-drawers
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26582.41
+            regular_price:
+              value: 26582.41
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-mt300t_-_7_drawers_touch_stainless.jpg"
+          label: Fresh Upright Freezer  FNU-MT300T - 7 Drawers Touch Stainless
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 717
+        name: Fresh Inverter Upright Freezer Modena Glass FNU-MT270 IGBH - Black Touch
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500014238"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 31012.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-inverter-upright-freezer-modena-glass-fnu-mt270-igbh-black-touch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 31012.8
+            regular_price:
+              value: 31012.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_inverter_upright_freezer_modena_glass_fnu-mt270_igbh_-_black_touch.jpg"
+          label: Fresh Inverter Upright Freezer Modena Glass FNU-MT270 IGBH - Black Touch
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 716
+        name: Fresh Upright Freezer Modena Glass FNU-MT270GBH - 6 Drawers Touch Black
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013023"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 27690
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 3
+        url_key: fresh-upright-freezer-modena-glass-fnu-mt270gbh-6-drawers-touch-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 27690
+            regular_price:
+              value: 27690
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_modena_glass_fnu-mt270gbh_-_6_drawers_touch_black.jpg"
+          label: Fresh Upright Freezer Modena Glass FNU-MT270GBH - 6 Drawers Touch Black
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 715
+        name: Fresh Upright Freezer Modena Glass  FNU-MT300GBH - 7 Drawers Touch Black
+        newFrom: "2022-06-23 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013022"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 29905.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-upright-freezer-modena-glass-fnu-mt300gbh-7-drawers-touch-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 29905.2
+            regular_price:
+              value: 29905.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_modena_glass_fnu-mt300gbh_-_7_drawers_touch_black.jpg"
+          label: Fresh Upright Freezer Modena Glass  FNU-MT300GBH - 7 Drawers Touch Black
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 462
+        name: Fresh Upright Freezer FNU-MT300B - 7 Drawers Touch Black
+        newFrom: null
+        newTo: null
+        sku: "500012314"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 26582.41
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-upright-freezer-fnu-mt300-7-drawers-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26582.41
+            regular_price:
+              value: 26582.41
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_upright_freezer_fnu-mt300b_-_7_drawers_touch_black.jpg"
+          label: Fresh Upright Freezer FNU-MT300B - 7 Drawers Touch Black
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 771
+        name: Fresh Refrigerator 426 Liters - Glass Burgundy /FNT-DR540 YGDR
+        newFrom: "2022-11-30 00:00:00"
+        newTo: "2022-12-31 00:00:00"
+        sku: "500012042"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 28169.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-dr540-ygdr-426-liters-glass-dark-red
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28169.4
+            regular_price:
+              value: 28169.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-dr540_ygdr_426_liters_glass_dark_red.jpg"
+          label: Fresh Refrigerator FNT-DR540 YGDR 426 Liters Glass Dark Red
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 770
+        name: "Fresh Refrigerator 426 Liters - Glass Black /FNT-DR540 YGB "
+        newFrom: "2022-11-30 00:00:00"
+        newTo: "2022-12-31 00:00:00"
+        sku: "500011999"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 28169.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-refrigerator-fnt-dr540-ygb-426-liters-glass-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28169.4
+            regular_price:
+              value: 28169.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-dr540_ygb_426_liters_glass_black.jpg"
+          label: Fresh Refrigerator FNT-DR540 YGB 426 Liters Glass Black
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 614
+        name: Fresh Refrigerator 471 Liters - Stainless Steel /FNT-D580 YT
+        newFrom: null
+        newTo: null
+        sku: "500010657"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 28598.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-refrigerator-fnt-d580-yt-471-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28598.8
+            regular_price:
+              value: 28598.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d580_yt_471_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-D580 YT, 471 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 613
+        name: Fresh Refrigerator 426 Liters - Stainless Steel /FNT-D540 YT
+        newFrom: null
+        newTo: null
+        sku: "500010661"
+        special_from_date: "2023-11-09 00:00:00"
+        special_price: 26550.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 4
+        url_key: fresh-refrigerator-fnt-d540yt-426-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26550.6
+            regular_price:
+              value: 26550.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d540_yt_426_liters_stainless_1.jpg"
+          label: "Fresh Refrigerator FNT-D540 YT,426 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1005
+        name: Fresh Refrigerator 471 Liters - Glass /FNT-MR580 YGK
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-11-30 00:00:00"
+        sku: "500016251"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 27519.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-471-liters-glass-fnt-mr580-ygk
+        price_range:
+          maximum_price:
+            final_price:
+              value: 27519.6
+            regular_price:
+              value: 29138.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/k/a/kashmeer_1.png"
+          label: "Fresh Refrigerator FNT-MR580 YGB ,471 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1004
+        name: "Fresh Refrigerator 471 Liters - Glass /FNT-MR580 YGLB "
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-11-30 00:00:00"
+        sku: "500016253"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 27519.6
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 5
+        url_key: fresh-refrigerator-471-liters-glass-fnt-mr580-yglb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 27519.6
+            regular_price:
+              value: 29138.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/l/b/lb_2.png"
+          label: "Fresh Refrigerator FNT-MR580 YGB ,471 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1001
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGBG
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500016256"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22663.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 1
+        url_key: fresh-glass-refrigerator-397-liters-fnt-mr470-ygbg
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22663.2
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/b/g/bg.png"
+          label: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGBG
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 476
+        name: Fresh Glass Harmony Refrigerator - 397 Liters / FNT-MR470 YGَQDR
+        newFrom: "2020-08-22 00:00:00"
+        newTo: "2020-09-30 00:00:00"
+        sku: "500010850"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24605
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-refrigerator-fnt-mr470-yg-qdr-397-liters-glass-harmony
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24605
+            regular_price:
+              value: 24605
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_yg_qdr_397_liters_glass-harmony.png"
+          label: "Fresh Refrigerator FNT-MR470 YGَQDR ,397 Liters Glass-Harmony"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 924
+        name: "Fresh Refrigerator 471 Liters - Glass Modena Inverter /MR580YIGMod INV "
+        newFrom: "2023-05-28 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500013187"
+        special_from_date: "2023-11-02 00:00:00"
+        special_price: 29104.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-mr580yigmod-inv-471-liters-glass-modena-inverter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 29104.2
+            regular_price:
+              value: 29104.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_mr470yigqmod_inv_397_liters_glass-modena_inverter_1.png"
+          label: "Fresh Refrigerator MR470YIGQMod INV ,397 Liters Glass-Modena Inverter"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 518
+        name: Fresh Refrigerator Modena Inverter - 397 Liters / MR470YIGQMod INV
+        newFrom: null
+        newTo: null
+        sku: "500011967"
+        special_from_date: "2023-10-12 00:00:00"
+        special_price: 24715.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-mr470yigqmod-inv-397liters-glass-modena-inverter
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24715.2
+            regular_price:
+              value: 24715.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/m/o/modena-2.jpg"
+          label: Fresh Refrigerator Modena Inverter - 397 Liters / MR470YIGQMod INV
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 641
+        name: "Fresh Chest Freezer FDF-190, 145 Liters -White Elegant"
+        newFrom: "2022-03-21 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500011774"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11005.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-190-145-liters-white-elegant
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11005.8
+            regular_price:
+              value: 11005.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-190_145_liters_-white_elegant.jpg"
+          label: "Fresh Chest Freezer FDF-190, 145 Liters -White Elegant"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 89
+        name: "Fresh Chest Freezer FDF-190, 145 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500008810"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 11005.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-190-145-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11005.8
+            regular_price:
+              value: 11005.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-190_145_liters.jpg"
+          label: "Fresh Chest Freezer FDF-190, 145 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 931
+        name: "Fresh Chest Freezer FDF-270 Elegant  , 200 Liters Digital"
+        newFrom: "2023-05-30 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500011071"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 11520.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-270-elegant-200-liters-digital
+        price_range:
+          maximum_price:
+            final_price:
+              value: 11520.6
+            regular_price:
+              value: 11520.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/d/e/deep-freezer1-front-v02.jpg"
+          label: "Fresh Chest Freezer FDF-270 Elegant  , 200 Liters Digital"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 930
+        name: "Fresh Chest Freezer FDF-270 Extra , 200 Liters Stainless "
+        newFrom: "2023-05-30 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500003055"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 12187.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-270-extra-200-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 12187.5
+            regular_price:
+              value: 12187.5
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/s/t/stt_1.jpg"
+          label: "Fresh Chest Freezer FDF-270 Extra , 200 Liters Stainless "
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 70
+        name: Fresh Refrigerator 369 Liters - Silver / FNT-BR 400 BS
+        newFrom: null
+        newTo: null
+        sku: "500006953"
+        special_from_date: "2023-10-12 00:00:00"
+        special_price: 21477.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-br-400-k-369-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21477.6
+            regular_price:
+              value: 21477.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br_400_bs_369_liters_silver.jpg"
+          label: "Fresh Refrigerator FNT-BR 400 BS ,369 Liters Silver"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 95
+        name: "Fresh Chest Freezer FDF-560 , 472 Liters"
+        newFrom: null
+        newTo: null
+        sku: "500010823"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 18942.3
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-chest-freezer-fdf-560-472-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 18942.3
+            regular_price:
+              value: 18942.3
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_chest_freezer_fdf-560_472_liters.jpg"
+          label: "Fresh Chest Freezer FDF-560 , 472 Liters"
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Chest Freezers,cooling-appliances/freezer/chest-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 451
+        name: Fresh Refrigerator 397 Liters - Black /FNT-BR470 KB
+        newFrom: null
+        newTo: null
+        sku: "500008344"
+        special_from_date: "2023-10-12 00:00:00"
+        special_price: 22556.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-br470-k-397-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22556.8
+            regular_price:
+              value: 22556.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br470_kb_397_liters_black.jpg"
+          label: Fresh Refrigerator FNT-BR470 KB 397 Liters Black
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 926
+        name: Fresh Refrigerator 397 Liters - Black Glass /FNT-BR470 KGMOD
+        newFrom: "2023-05-28 00:00:00"
+        newTo: "2023-06-30 00:00:00"
+        sku: "500011968"
+        special_from_date: "2023-11-04 00:00:00"
+        special_price: 23852.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-br470-kgmod-397-liters-glass-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23852.6
+            regular_price:
+              value: 23852.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/m/o/modena_1.jpg"
+          label: Fresh Refrigerator 397 Liters - Black Glass /FNT-BR470 KGMOD
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 54
+        name: Fresh Refrigerator 397 Liters - Stainless Steel / FNT-BR470 KT
+        newFrom: null
+        newTo: null
+        sku: "500006945"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22663.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-br470-k-397-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22663.2
+            regular_price:
+              value: 22663.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br470_kt_397_liters_stainless.jpg"
+          label: Fresh Refrigerator FNT-BR470 KT 397 Liters Stainless
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 636
+        name: Fresh Refrigerator 369 Liters Harmony Bluetooth - Stainless Steel / FNT-M 400 YQT
+        newFrom: "2022-03-21 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500012058"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22123.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m-400-yqt-369-liters-stainless-harmony
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22123.6
+            regular_price:
+              value: 22123.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m_400_yqt_369_liters_stainless_harmony.png"
+          label: "Fresh Refrigerator FNT-M 400 YQT ,369 Liters Stainless Harmony"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 458
+        name: Fresh Refrigerator 369 Liters Harmony Bluetooth - Black / FNT-M 400 YQB
+        newFrom: "2022-03-21 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500012057"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 22123.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m-400-yqb-369-liters-black-harmony
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22123.6
+            regular_price:
+              value: 22123.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m_400_yqb_369_liters_black_-_harmony.png"
+          label: "Fresh Refrigerator FNT-M 400 YQB ,369 Liters Black - Harmony"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 503
+        name: Fresh Refrigerator 426 Liters - Stainless Steel /FNT-M540 YT
+        newFrom: null
+        newTo: null
+        sku: "500010662"
+        special_from_date: "2023-10-25 00:00:00"
+        special_price: 26117.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m540-yt-426liters-stainless-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26117.4
+            regular_price:
+              value: 26117.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m540_yt_426_liters_stainless.png"
+          label: "Fresh Refrigerator FNT-M540 YT , 426 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 478
+        name: Fresh Refrigerator 471 Liters - Stainless Steel/ FNT-M580 YT
+        newFrom: null
+        newTo: null
+        sku: "500010658"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 28059.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m580-yt-471-liters-stainless
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28059.2
+            regular_price:
+              value: 28059.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m580_yt_471_liters_stainless.png"
+          label: "Fresh Refrigerator FNT-M580 YT ,471 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 81
+        name: Fresh Refrigerator 397 Liters - Stainless Steel /FNT-M 470 YT
+        newFrom: null
+        newTo: null
+        sku: "500004743"
+        special_from_date: "2023-10-03 00:00:00"
+        special_price: 23525.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m470-y-397-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23525.8
+            regular_price:
+              value: 23525.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m470_yt_397_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-M 470 YT ,397 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 639
+        name: Fresh Refrigerator 397 Liters - Glossy Black / FNT-M470 YBM
+        newFrom: "2022-03-21 00:00:00"
+        newTo: "2022-03-31 00:00:00"
+        sku: "500008805"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 23525.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m470-y-397-liters-2
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23525.8
+            regular_price:
+              value: 23525.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m470_ybm_397_liters_black_mirror.png"
+          label: "Fresh Refrigerator FNT-M470 YBM ,397 Liters Black Mirror"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 539
+        name: "Fresh Refrigerator 397 Liters - Black /FNT-MR470 YBM "
+        newFrom: null
+        newTo: null
+        sku: "500009760"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 24282
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr470-ybm-397liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24282
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_ybm_397_liters_black.png"
+          label: "Fresh Refrigerator FNT-MR470 YBM  ,397 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 461
+        name: Fresh Refrigerator 397 Liters - Black / FNT-M470 YB
+        newFrom: null
+        newTo: null
+        sku: "500006792"
+        special_from_date: "2023-10-03 00:00:00"
+        special_price: 23419.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-m470-y-397-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23419.4
+            regular_price:
+              value: 23419.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-m470_yb_397_liters_black_10_.jpg"
+          label: "Fresh Refrigerator FNT-M470 YB ,397 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 468
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-BR470 KGB
+        newFrom: null
+        newTo: null
+        sku: "500009893"
+        special_from_date: "2020-07-09 00:00:00"
+        special_price: 23742.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-br470-kgb-397-liters-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23742.4
+            regular_price:
+              value: 23742.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-br470_kgb_397_liters_glass.jpg"
+          label: "Fresh Refrigerator FNT-BR470 KGB ,397 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 537
+        name: Fresh Refrigerator 397 Liters - Black / FNT-D470 YBM
+        newFrom: null
+        newTo: null
+        sku: "500008804"
+        special_from_date: "2023-10-04 00:00:00"
+        special_price: 23852.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-d470-ybm-397liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23852.6
+            regular_price:
+              value: 23852.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d470_ybm_397_liters_black.png"
+          label: "Fresh Refrigerator FNT-D470 YBM ,397 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 460
+        name: "Fresh Refrigerator 397 Liters - Black /FNT-D470 YB "
+        newFrom: null
+        newTo: null
+        sku: "500006791"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 23852.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-d470-y-397-liters-1
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23852.6
+            regular_price:
+              value: 23852.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d470_yb_376_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-D470 YB ,376 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 620
+        name: Fresh Refrigerator 426 Liters - Black /FNT-D540 YB
+        newFrom: null
+        newTo: null
+        sku: "500010663"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 26550.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-d540-yb-426-liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 26550.6
+            regular_price:
+              value: 26550.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d540_yb_426_liters_black.jpg"
+          label: Fresh Refrigerator FNT-D540 YB 426 Liters Black
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 618
+        name: Fresh Refrigerator 471 Liters - Black /FNT-D580 YB
+        newFrom: null
+        newTo: null
+        sku: "500010659"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 28598.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-d580-yb-471-liters-black
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28598.8
+            regular_price:
+              value: 28598.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d580_yb_471_liters_black.jpg"
+          label: "Fresh Refrigerator FNT-D580 YB, 471 Liters Black"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 80
+        name: Fresh Refrigerator 397 Liters - Stainless Steel /FNT-D470 YT
+        newFrom: null
+        newTo: null
+        sku: "500004710"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 23852.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-d470-y-397-liters
+        price_range:
+          maximum_price:
+            final_price:
+              value: 23852.6
+            regular_price:
+              value: 23852.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-d470_yt_397_liters_stainless.jpg"
+          label: "Fresh Refrigerator FNT-D470 YT,397 Liters Stainless"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 659
+        name: "Fresh Refrigerator 471 Liters - Black Glass /FNT-MR580 YGB "
+        newFrom: null
+        newTo: null
+        sku: "500011998"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 29138.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr580-ygb-471-liters-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 29138.4
+            regular_price:
+              value: 29138.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr580_ygb_471_liters_glass_4.jpg"
+          label: "Fresh Refrigerator FNT-MR580 YGB ,471 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 467
+        name: Fresh Refrigerator 397 Liters Glass - Black /FNT-MR470 YGB
+        newFrom: null
+        newTo: null
+        sku: "500009891"
+        special_from_date: "2020-07-09 00:00:00"
+        special_price: 24282
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr470-ygb-397-liters-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24282
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_ygb_397_liters_glass.jpg"
+          label: "Fresh Refrigerator FNT-MR470 YGB ,397 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1002
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGK
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500016255"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22663.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-glass-refrigerator-397-liters-fnt-mr470-ygk
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22663.2
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/k/a/kashmeer.png"
+          label: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGK
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 1000
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGLB
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500016257"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22663.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-glass-refrigerator-397-liters-fnt-mr470-yglb
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22663.2
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/l/b/lb.png"
+          label: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGLB
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 998
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGWG
+        newFrom: "2023-11-05 00:00:00"
+        newTo: "2023-11-30 00:00:00"
+        sku: "500016258"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22663.2
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-glass-refrigerator-397-liters-fnt-mr470-ygwg
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22663.2
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/w/g/wg.png"
+          label: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGWG
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 541
+        name: Fresh Refrigerator 397 Liters - Burgundy Glass / FNT-MR470 YGَDR
+        newFrom: "2020-08-22 00:00:00"
+        newTo: "2020-09-30 00:00:00"
+        sku: "500011924"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 24282
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr470-yg-dr-397liters-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24282
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_yg_dr_397_liters_glass.png"
+          label: "Fresh Refrigerator FNT-MR470 YGَDR ,397 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 540
+        name: Fresh Glass Refrigerator - 397 Liters / FNT-MR470 YGَBM
+        newFrom: "2020-08-22 00:00:00"
+        newTo: "2020-09-30 00:00:00"
+        sku: "500010813"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 24282
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr470-yg-bm-397liters-glass
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24282
+            regular_price:
+              value: 24282
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_yg_bm_397_liters_glass.png"
+          label: "Fresh Refrigerator FNT-MR470 YGَBM ,397 Liters Glass"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 475
+        name: Fresh Refrigerator 397 Liters Glass Harmony - Black/ FNT-MR470 YGَQBM
+        newFrom: "2020-08-22 00:00:00"
+        newTo: "2020-09-30 00:00:00"
+        sku: "500011892"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24605
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-refrigerator-fnt-mr470-yg-qbm-397-liters-glass-harmony
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24605
+            regular_price:
+              value: 24605
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_refrigerator_fnt-mr470_yg_qbm_397_liters_glass-harmony.jpg"
+          label: "Fresh Refrigerator FNT-MR470 YGَQBM ,397 Liters Glass-Harmony"
+        categories[3]{name,url_path}:
+          Refrigerators,cooling-appliances/refrigerators
+          No-Frost Refrigerators,cooling-appliances/refrigerators/no-frost
+          Cooling Appliances,cooling-appliances
+      - id: 516
+        name: Fresh Inverter Upright Freezer FNU-MT301 IB - Black Touch
+        newFrom: null
+        newTo: null
+        sku: "500016099"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 28243.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-inverter-upright-freezer-fnu-mt301-ib-black-touch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28243.8
+            regular_price:
+              value: 28243.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_inverter_upright_freezer_fnu-mt300_ib_-_black_touch.png"
+          label: Fresh Inverter Upright Freezer FNU-MT300 IB - Black Touch
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances
+      - id: 514
+        name: Fresh Inverter Upright Freezer FNU-MT301 IT - Stainless Touch
+        newFrom: null
+        newTo: null
+        sku: "500016098"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 28243.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-inverter-upright-freezer-fnu-mt301-it-stainless-touch
+        price_range:
+          maximum_price:
+            final_price:
+              value: 28243.8
+            regular_price:
+              value: 28243.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_inverter_upright_freezer_fnu-mt300_it_-_stainless_touch.png"
+          label: Fresh Inverter Upright Freezer FNU-MT300 IT - Stainless Touch
+        categories[3]{name,url_path}:
+          Deep Freezers,cooling-appliances/freezer
+          Upright Freezers,cooling-appliances/freezer/upright-freezer
+          Cooling Appliances,cooling-appliances

@@ -1,0 +1,235 @@
+categories[6]:
+  - name: Cooker Appliances
+    id: 3
+    subcategories[3]:
+      - name: 5 Burners
+        id: 89
+        subcategories[2]:
+          - name: 5 Burners (90 cm)
+            id: 48
+            subcategories[0]:
+          - name: 5 Burners (80 cm)
+            id: 47
+            subcategories[0]:
+      - name: 4 Burners
+        id: 88
+        subcategories[3]:
+          - name: 4 Burners (65 cm)
+            id: 87
+            subcategories[0]:
+          - name: 4 Burners (60 cm)
+            id: 46
+            subcategories[0]:
+          - name: 4 Burners (55 cm)
+            id: 45
+            subcategories[0]:
+      - name: Built-In
+        id: 74
+        subcategories[3]:
+          - name: Built-In Cookers Hobs
+            id: 75
+            subcategories[0]:
+          - name: Built-In Ovens
+            id: 76
+            subcategories[0]:
+          - name: Built-in Hoods
+            id: 77
+            subcategories[0]:
+  - name: Cooling Appliances
+    id: 86
+    subcategories[2]:
+      - name: Deep Freezer
+        id: 67
+        subcategories[2]:
+          - name: Upright Freezer
+            id: 68
+            subcategories[0]:
+          - name: Chest Freezer
+            id: 69
+            subcategories[0]:
+      - name: Refrigerators
+        id: 20
+        subcategories[3]:
+          - name: No Frost Refrigerators
+            id: 63
+            subcategories[1]:
+              - name: Refrigerators / 400
+                id: 209
+                subcategories[0]:
+          - name: De Frost Refrigerators
+            id: 64
+            subcategories[0]:
+          - name: Mini Bar
+            id: 65
+            subcategories[0]:
+  - name: Small Home Appliances
+    id: 4
+    subcategories[13]:
+      - name: Microwaves
+        id: 5
+        subcategories[3]:
+          - name: Convection
+            id: 92
+            subcategories[0]:
+          - name: Grill
+            id: 91
+            subcategories[0]:
+          - name: Solo
+            id: 90
+            subcategories[0]:
+      - name: Electric Ovens
+        id: 9
+        subcategories[0]:
+      - name: Vacuum Cleaners
+        id: 43
+        subcategories[2]:
+          - name: Bagless Vacuums
+            id: 94
+            subcategories[0]:
+          - name: Bagged Vacuums
+            id: 93
+            subcategories[0]:
+      - name: Irons
+        id: 44
+        subcategories[0]:
+      - name: Heaters & Insect Killer
+        id: 54
+        subcategories[0]:
+      - name: Water Appliances
+        id: 78
+        subcategories[4]:
+          - name: Water Dispenser
+            id: 84
+            subcategories[0]:
+          - name: Water Filters
+            id: 80
+            subcategories[0]:
+          - name: Water Coolers
+            id: 81
+            subcategories[0]:
+          - name: Ice Box
+            id: 82
+            subcategories[0]:
+      - name: Kitchen Appliances
+        id: 19
+        subcategories[8]:
+          - name: Food Processor
+            id: 55
+            subcategories[0]:
+          - name: Hand Blender
+            id: 56
+            subcategories[0]:
+          - name: Hand Mixer
+            id: 57
+            subcategories[0]:
+          - name: Healthy Grill
+            id: 58
+            subcategories[0]:
+          - name: Stand Mixer
+            id: 59
+            subcategories[0]:
+          - name: Kettles
+            id: 60
+            subcategories[0]:
+          - name: Blenders
+            id: 61
+            subcategories[0]:
+          - name: Chopper
+            id: 62
+            subcategories[0]:
+      - name: Water Heaters
+        id: 15
+        subcategories[3]:
+          - name: Electric Water Heater
+            id: 16
+            subcategories[0]:
+          - name: Gas Water Heater
+            id: 17
+            subcategories[0]:
+          - name: Instant Heater
+            id: 96
+            subcategories[0]:
+      - name: Fans
+        id: 11
+        subcategories[6]:
+          - name: Stand Fans
+            id: 52
+            subcategories[0]:
+          - name: Wall Mount Fans
+            id: 12
+            subcategories[0]:
+          - name: Desk Fans
+            id: 13
+            subcategories[0]:
+          - name: Ceiling Fans
+            id: 14
+            subcategories[0]:
+          - name: Box Fans
+            id: 79
+            subcategories[0]:
+          - name: Ventilators
+            id: 53
+            subcategories[0]:
+      - name: Air Coolers
+        id: 49
+        subcategories[0]:
+      - name: Air Fryer
+        id: 211
+        subcategories[0]:
+      - name: Electric Plates
+        id: 276
+        subcategories[0]:
+      - name: Electric Mosquito Killer
+        id: 279
+        subcategories[0]:
+  - name: Air Conditioner
+    id: 70
+    subcategories[5]:
+      - name: Split Air Conditioner
+        id: 71
+        subcategories[0]:
+      - name: Inverter Split Air Conditioner
+        id: 210
+        subcategories[0]:
+      - name: Free Stand Air Conditioner
+        id: 72
+        subcategories[0]:
+      - name: Duct Air Conditioner
+        id: 73
+        subcategories[0]:
+      - name: Air Curtain
+        id: 83
+        subcategories[0]:
+  - name: Washing Machines
+    id: 22
+    subcategories[5]:
+      - name: Full Automatic Washing Machine
+        id: 39
+        subcategories[0]:
+      - name: Top Loading Washing Machine
+        id: 40
+        subcategories[0]:
+      - name: Twin Tub Washing Machine
+        id: 41
+        subcategories[0]:
+      - name: Single Tub Washing Machine
+        id: 42
+        subcategories[0]:
+      - name: Dishwashers
+        id: 95
+        subcategories[0]:
+  - name: Televisions
+    id: 23
+    subcategories[4]:
+      - name: LED TV
+        id: 50
+        subcategories[0]:
+      - name: Android LED TVs
+        id: 208
+        subcategories[0]:
+      - name: Linux LED TVs
+        id: 277
+        subcategories[0]:
+      - name: Google Smart TVs
+        id: 278
+        subcategories[0]:

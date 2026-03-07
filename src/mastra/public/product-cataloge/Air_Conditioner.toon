@@ -1,0 +1,725 @@
+data:
+  connection:
+    aggregations[7]:
+      - attribute: price
+        label: Price
+        count: 2
+        options[2]{label,count,value}:
+          0-100000,27,0_100000
+          100000-200000,2,100000_200000
+      - attribute: category_uid
+        label: Category
+        count: 6
+        options[6]{label,count,value}:
+          Air Conditioners,29,NzA=
+          Split Air Conditioner,13,NzE=
+          Inverter Split Air Conditioner,8,MjEw
+          "Air Curtain ",4,ODM=
+          Free Stand Air Conditioner,2,NzI=
+          Concealed Air Conditioner,2,NzM=
+      - attribute: product_brand_id
+        label: Brand
+        count: 1
+        options[1]{label,count,value}:
+          Fresh,27,"1"
+      - attribute: ac_horse_power
+        label: AC Horse Power
+        count: 7
+        options[7]{label,count,value}:
+          "1.5",8,"5484"
+          "2.25",7,"5485"
+          "2.5",0,"5486"
+          "3",6,"5487"
+          "4",0,"5488"
+          "5",3,"5489"
+          "1.25",0,"5490"
+      - attribute: deal
+        label: Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,23,"0"
+          Yes,6,"1"
+      - attribute: has_deal
+        label: Has Deal
+        count: 2
+        options[2]{label,count,value}:
+          No,24,"0"
+          Yes,5,"1"
+      - attribute: color
+        label: Color
+        count: 6
+        options[6]{label,count,value}:
+          White,25,"5431"
+          Black,0,"5432"
+          Silver,2,"5433"
+          Stainless,0,"5437"
+          Multiple,2,"5438"
+          Gray,0,"5519"
+    nodes[29]:
+      - id: 997
+        name: Fresh Air Curtain Pro 120 cm
+        newFrom: "2023-11-02 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500003577"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9979.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 7
+        url_key: fresh-air-curtain-pro-120-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9249.2
+            regular_price:
+              value: 9249.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/a/i/air_curtain_2023_1.png"
+          label: Fresh Air Curtain Pro 120 cm
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          "Air Curtain ",air-conditioner/air-curtain
+      - id: 996
+        name: Fresh Air Curtain Pro 90 cm
+        newFrom: "2023-11-02 00:00:00"
+        newTo: "2023-12-31 00:00:00"
+        sku: "500003576"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 8651
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 15
+        url_key: fresh-air-curtain-pro-90-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8018.01
+            regular_price:
+              value: 8018.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/a/i/air_curtain_2023.png"
+          label: Fresh Air Curtain Pro 90 cm
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          "Air Curtain ",air-conditioner/air-curtain
+      - id: 127
+        name: "Fresh Air Conditioner Turbo 3 HP - Cool "
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500012346"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 44091.4
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 10
+        url_key: fresh-air-conditioner-turbo-3-hp-cool
+        price_range:
+          maximum_price:
+            final_price:
+              value: 40865.2
+            regular_price:
+              value: 40865.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Air Conditioner Turbo 3 HP - Cool "
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 98
+        name: Fresh Air Conditioner Hummer 1.5 HP - Cool
+        newFrom: "2024-02-15 00:00:00"
+        newTo: "2024-02-29 00:00:00"
+        sku: "500012325"
+        special_from_date: "2024-02-29 00:00:00"
+        special_price: 21325.16
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 14
+        url_key: fresh-air-conditioner-hummer-1-5-hp-cool
+        price_range:
+          maximum_price:
+            final_price:
+              value: 21325.16
+            regular_price:
+              value: 30075.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: Fresh Air Conditioner Hummer 1.5 HP - Cool
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 105
+        name: Fresh Air Conditioner Smart Digital 2.25 HP Cool - Plasma
+        newFrom: "2022-05-25 00:00:00"
+        newTo: "2022-06-15 00:00:00"
+        sku: "500009517"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 37670.8
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 6
+        url_key: fresh-air-conditioner-smart-digital-2-5-hp-cool-only-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 34914.39
+            regular_price:
+              value: 34914.39
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_2.5_hp_cool_only-_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 2.5 HP Cool Only- Plasma\r\n"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 106
+        name: Fresh Air Conditioner Smart Digital 3 HP Cool - Plasma
+        newFrom: null
+        newTo: null
+        sku: "500009510"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 45231.2
+        special_to_date: null
+        stock_status: IN_STOCK
+        stock: 2
+        url_key: fresh-air-conditioner-smart-digital-3-hp-cool-only-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 41921.6
+            regular_price:
+              value: 41921.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_3_hp_cool_only_-_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 3 HP Cool Only - Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 744
+        name: Fresh Air Curtain Magic 120 cm
+        newFrom: "2022-07-19 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500014038"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 9979.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-curtain-magic-120-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 9249.2
+            regular_price:
+              value: 9249.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_curtain_magic_120_cm.jpg"
+          label: "Fresh Air Curtain Magic 120 cm\r\n"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          "Air Curtain ",air-conditioner/air-curtain
+      - id: 741
+        name: Fresh Air Curtain Magic 90 cm
+        newFrom: "2022-07-19 00:00:00"
+        newTo: "2022-07-31 00:00:00"
+        sku: "500014037"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 8651
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-curtain-magic-90-cm
+        price_range:
+          maximum_price:
+            final_price:
+              value: 8018.01
+            regular_price:
+              value: 8018.01
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_curtain_magic_90_cm.jpg"
+          label: Fresh Air Curtain Magic 90 cm
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          "Air Curtain ",air-conditioner/air-curtain
+      - id: 507
+        name: Fresh Air Conditioner Duct Inverter Turbo 5 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500009259"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 98506.1
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-duct-inverter-turbo-5-hp-cold-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 97226.79
+            regular_price:
+              value: 97226.79
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_duct_inverter_turbo_5_hp_cold_-_hot_2.png"
+          label: "Fresh Air Conditioner Duct Inverter Turbo 5 HP Cold - Hot\r\n"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Concealed Air Conditioner,air-conditioner/duct-air-conditioner
+      - id: 143
+        name: Fresh Air Conditioner Duct Inverter Turbo 2.25 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500009255"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 57919.4
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-duct-inverter-turbo-2-25-hp-cold-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 57167.19
+            regular_price:
+              value: 57167.19
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_duct_inverter_turbo_2.25_hp_cold_-_hot.png"
+          label: Fresh Air Conditioner Duct Inverter Turbo 2.25 HP Cold - Hot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Concealed Air Conditioner,air-conditioner/duct-air-conditioner
+      - id: 142
+        name: Fresh Air Conditioner Smart Free Stand 7.5 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500008330"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 143643.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-free-stand-7-5-hp-cold-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 141778
+            regular_price:
+              value: 141778
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_free_stand_7.5_hp_cold-hot.png"
+          label: "Fresh Air Conditioner Smart Free Stand, 7.5 HP Cold-Hot"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Free Stand Air Conditioner,air-conditioner/free-stand-air-conditioner
+      - id: 140
+        name: Fresh Air Conditioner Smart Free Stand 5 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500009265"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 102190.56
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-free-stand-5-hp-cold-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 100863.4
+            regular_price:
+              value: 100863.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_free_stand_5_hp_cold-hot.png"
+          label: "Fresh Air Conditioner Smart Free Stand, 5 HP Cold-Hot"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Free Stand Air Conditioner,air-conditioner/free-stand-air-conditioner
+      - id: 103
+        name: Fresh Air Conditioner Premier Turbo - 5 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500005067"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 85029.9
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-premier-turbo-5-hp-cold-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 78808.2
+            regular_price:
+              value: 78808.2
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_premier_turbo_5_hp_cold-hot.png"
+          label: "Fresh Air Conditioner Premier Turbo, 5 HP Cold-Hot"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 709
+        name: Fresh Air Conditioner Turbo 1.5 HP Cool - Plasma
+        newFrom: "2022-06-16 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500011944"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 23841.51
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-turbo-1-5-hp-cold-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22096.99
+            regular_price:
+              value: 22096.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_turbo_1.5_hp_cold_-_plasma_1.png"
+          label: "Fresh Air Conditioner Turbo,1.5 HP Cold - Plasma\r\n"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 427
+        name: Fresh Air Conditioner Smart Inverter Plus 3 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500008789"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 51508.3
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-plus-3-hp-cool-heat
+        price_range:
+          maximum_price:
+            final_price:
+              value: 47739.4
+            regular_price:
+              value: 47739.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_plus_3_hp_coolhot.png"
+          label: Fresh Air Conditioner Smart Inverter Plus 3 HP Cool/Hot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 128
+        name: Fresh Air Conditioner Turbo 1.5 HP - Cool
+        newFrom: null
+        newTo: null
+        sku: "500011943"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 24899.61
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-turbo-1-5-hp-cold
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24899.61
+            regular_price:
+              value: 30365.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_turbo_1.5_hp_cold_-_plasma_1_1.png"
+          label: "Fresh Air Conditioner Turbo,1.5 HP Cold"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 104
+        name: Fresh Air Conditioner Smart Digital 1.5 HP Cool - Plasma
+        newFrom: null
+        newTo: null
+        sku: "500009515"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 22922.91
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-digital-1-5-hp-cool-only-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 22922.91
+            regular_price:
+              value: 32345.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_1.5_hp_cool_only-_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 1.5 HP Cool Only - Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 424
+        name: Fresh Air Conditioner Smart Digital 1.5 HP Cool/Hot - Plasma
+        newFrom: null
+        newTo: null
+        sku: "500009506"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 26157.99
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-digital-1-5-hp-cool-heat-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 24243.99
+            regular_price:
+              value: 24243.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_1.5_hp_cool_hot_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 1.5 HP Cool Hot- Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 939
+        name: Fresh Air Conditioner Smart Inverter 3 HP Cool/Hot - Plasma
+        newFrom: "2023-08-07 00:00:00"
+        newTo: "2023-09-15 00:00:00"
+        sku: "500014344"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 51668.19
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-3-hp-cool-hot-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 47887.6
+            regular_price:
+              value: 47887.6
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_wifi_3_hp_cool-hot_plasma_1.png"
+          label: "Fresh Air Conditioner Smart Inverter WiFi , 3 HP Cool-Hot Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 708
+        name: Fresh Air Conditioner Smart Inverter WiFi 3 HP Cool/Hot - Plasma
+        newFrom: "2022-06-16 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500008803"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 52111
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-wifi-3-hp-cool-heat-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 48298
+            regular_price:
+              value: 48298
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_wifi_3_hp_cool-hot_plasma.png"
+          label: "Fresh Air Conditioner Smart Inverter WiFi , 3 HP Cool-Hot Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 707
+        name: Fresh Air Conditioner Smart Inverter WiFi 1.5 HP Cool/Hot  - Plasma
+        newFrom: "2022-06-16 00:00:00"
+        newTo: "2022-07-15 00:00:00"
+        sku: "500013252"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 33316.6
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-wifi-1-5-hp-cool-heat-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 30878.79
+            regular_price:
+              value: 30878.79
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_wifi_1.5_hp_cool-hot_plasma_2.png"
+          label: "Fresh Air Conditioner Smart Inverter WiFi , 1.5 HP Cool-Hot Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 423
+        name: Fresh Air Conditioner Smart Inverter Plus 1.5 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500008785"
+        special_from_date: "2024-02-29 00:00:00"
+        special_price: 3008.62
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-plus-1-5-hp-cool-heat
+        price_range:
+          maximum_price:
+            final_price:
+              value: 3008.62
+            regular_price:
+              value: 43315.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_plus_1.5_hp_cool-hot.png"
+          label: Fresh Air Conditioner Smart Inverter Plus 1.5 HP Cool/Hot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 1037
+        name: Fresh Air Conditioner Turbo 2.25 HP - Cool/Hot
+        newFrom: "2023-12-06 00:00:00"
+        newTo: "2024-01-15 00:00:00"
+        sku: "500016113"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 39536.3
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-turbo-2-25-hp-cool-hot
+        price_range:
+          maximum_price:
+            final_price:
+              value: 36643.4
+            regular_price:
+              value: 36643.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/frontend/Magento/luma/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg"
+          label: "Fresh Air Conditioner Turbo, 2.25 HP Cold"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 129
+        name: Fresh Air Conditioner Turbo 2.25 HP - Cool
+        newFrom: null
+        newTo: null
+        sku: "500012256"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 36473.61
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-turbo-2-25-hp-cold
+        price_range:
+          maximum_price:
+            final_price:
+              value: 33804.79
+            regular_price:
+              value: 33804.79
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_turbo_2.25_hp_cold.png"
+          label: "Fresh Air Conditioner Turbo, 2.25 HP Cold"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 425
+        name: Fresh Air Conditioner Smart Digital 2.25 HP Cool/Hot - Plasma
+        newFrom: null
+        newTo: null
+        sku: "500009508"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 40012.21
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-digital-2-5-hp-cool-heat-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 40012.21
+            regular_price:
+              value: 48795.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_2.5_hp_cool-hot_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 2.5 HP Cool-Hot Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 426
+        name: Fresh Air Conditioner Smart Digital 3 HP Cool/Hot - Plasma
+        newFrom: null
+        newTo: null
+        sku: "500009513"
+        special_from_date: "2024-02-29 23:02:16"
+        special_price: 48084.8
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-digital-3-hp-cool-heat-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 44566.4
+            regular_price:
+              value: 44566.4
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_digital_3_hp_cool-hot_plasma.png"
+          label: "Fresh Air Conditioner Smart Digital, 3 HP Cool-Hot Plasma"
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Split Air Conditioner,air-conditioner/split-air-conditioner
+      - id: 943
+        name: Fresh Air Conditioner Smart Inverter 1.5 HP Cool/Hot  - Plasma
+        newFrom: "2023-08-23 00:00:00"
+        newTo: "2023-09-30 00:00:00"
+        sku: "500014343"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 32574.5
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-1-5-hp-cool-hot-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 30190.98
+            regular_price:
+              value: 30190.98
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_plus_2.25_hp_cool-hot_1_1.png"
+          label: Fresh Air Conditioner Smart Inverter Plus 2.25 HP CoolHot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 940
+        name: Fresh Air Conditioner Smart Inverter  2.25 HP Cool/Hot  - Plasma
+        newFrom: "2023-08-07 00:00:00"
+        newTo: "2023-09-15 00:00:00"
+        sku: "500015628"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 47068
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-2-25-hp-cool-hot-plasma
+        price_range:
+          maximum_price:
+            final_price:
+              value: 43623.99
+            regular_price:
+              value: 43623.99
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_plus_2.25_hp_cool-hot_1.png"
+          label: Fresh Air Conditioner Smart Inverter Plus 2.25 HP CoolHot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
+      - id: 422
+        name: Fresh Air Conditioner Smart Inverter Plus 2.25 HP Cool/Hot
+        newFrom: null
+        newTo: null
+        sku: "500008787"
+        special_from_date: "2023-10-02 00:00:00"
+        special_price: 47215.61
+        special_to_date: null
+        stock_status: OUT_OF_STOCK
+        stock: null
+        url_key: fresh-air-conditioner-smart-inverter-plus-2-25-hp-cool-heat
+        price_range:
+          maximum_price:
+            final_price:
+              value: 40760.8
+            regular_price:
+              value: 40760.8
+        thumbnail:
+          url: "https://freshmagdev.hypernode.io/media/catalog/product/cache/c8c8ebd20b855ac15e2f44a2aca7e536/f/r/fresh_air_conditioner_smart_inverter_plus_2.25_hp_cool-hot.png"
+          label: Fresh Air Conditioner Smart Inverter Plus 2.25 HP CoolHot
+        categories[2]{name,url_path}:
+          Air Conditioners,air-conditioner
+          Inverter Split Air Conditioner,air-conditioner/inverter-air-conditioner
