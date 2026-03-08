@@ -2,13 +2,11 @@
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore, LibSQLVector } from '@mastra/libsql';
-import { Observability, DefaultExporter, CloudExporter, SensitiveDataFilter } from '@mastra/observability';
+import { Observability, DefaultExporter, SensitiveDataFilter } from '@mastra/observability';
 import { weatherWorkflow } from './workflows/weather-workflow';
 
 import { weatherAgent } from './agents/weather-agent';
-import { salesAgent } from './agents/sales-agent';
-import { productFinderAgent } from './agents/product-finder-agent';
-import { productRecommenderAgent } from './agents/product-recommender-agent';
+import { salesAgent } from './agents/Sales-agent/sales-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
 import { sheetsAgent } from './agents/sheets-agent';
 import {
@@ -16,12 +14,17 @@ import {
   sheetsRequestHandlingScorer,
   sheetsUpdateSafetyScorer,
 } from './scorers/sheets-scorer';
+import {
+  salesCompletenessScorer,
+  salesDiscoveryAndRecommendationScorer,
+  salesCartSafetyScorer,
+} from './scorers/sales-scorer';
 import { sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow } from './workflows/sheets-rag-sync-workflow';
 import { catalogIndexWorkflow } from './workflows/catalog-index-workflow';
 
-export const mastra = new Mastra({
+export const mastra = new Mastra({  
   workflows: { weatherWorkflow, sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow, catalogIndexWorkflow },
-  agents: { weatherAgent, sheetsAgent, salesAgent },
+  agents: { weatherAgent, sheetsAgent, salesAgent  },
   scorers: {
     toolCallAppropriatenessScorer,
     completenessScorer,
@@ -29,6 +32,9 @@ export const mastra = new Mastra({
     sheetsCompletenessScorer,
     sheetsRequestHandlingScorer,
     sheetsUpdateSafetyScorer,
+    salesCompletenessScorer,
+    salesDiscoveryAndRecommendationScorer,
+    salesCartSafetyScorer,
   },
   storage: new LibSQLStore({
     id: "mastra-storage",
@@ -47,14 +53,16 @@ export const mastra = new Mastra({
   },
   logger: new PinoLogger({
     name: 'Mastra',
-    level: 'info',
+    level: 'debug',
   }),
   observability: new Observability({
     configs: {
       default: {
         serviceName: 'mastra',
         exporters: [
-          new DefaultExporter(), // Persists traces to storage for Mastra Studio
+          new DefaultExporter({
+            logLevel:"debug",
+          }), // Persists traces to storage for Mastra Studio
           // new CloudExporter(), // Sends traces to Mastra Cloud (if MASTRA_CLOUD_ACCESS_TOKEN is set)
         ],
         spanOutputProcessors: [

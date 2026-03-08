@@ -1,5 +1,5 @@
 import { Agent } from '@mastra/core/agent';
-import { salesAddToCartTool } from '../tools/sales-cart-tool';
+import { salesAddToCartTool } from '../../tools/SalesAgentTools';
 
 export const productRecommenderAgent = new Agent({
   id: 'product-recommender',
@@ -32,6 +32,11 @@ Cart operations:
 
 Do not invent products. Only recommend from the products provided to you.`,
   model: 'openai/gpt-4o-mini',
+  defaultOptions: {
+    modelSettings: {
+      temperature: 0.2,
+    },
+  },
   tools: {
     salesAddToCartTool,
   },

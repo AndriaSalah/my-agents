@@ -1,8 +1,7 @@
 import { createStep, createWorkflow } from '@mastra/core/workflows';
 import { z } from 'zod';
-import { getSheetTool } from '../tools/get-sheet-tool';
-import { indexSheetRagTool } from '../tools/index-sheet-rag-tool';
-import { updateSheetTool } from '../tools/update-sheet-tool';
+import { getSheetTool, indexSheetRagTool, updateSheetTool , } from '../tools/GoogleSheetsTools';
+
 
 const baseSheetRefSchema = z
   .object({

@@ -1,10 +1,5 @@
 import { Agent } from "@mastra/core/agent";
-import { updateSheetTool } from "../tools/update-sheet-tool";
-import { readSheetTool } from "../tools/read-sheet-tool";
-import { getSheetTool } from "../tools/get-sheet-tool";
-import { indexSheetRagTool } from "../tools/index-sheet-rag-tool";
-import { querySheetRagTool } from "../tools/query-sheet-rag-tool";
-
+import { getSheetTool, readSheetTool, updateSheetTool, indexSheetRagTool, querySheetRagTool } from "../tools/GoogleSheetsTools";
 import { Memory } from "@mastra/memory";
 import { sheetsScorers } from "../scorers/sheets-scorer";
 import { sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow } from "../workflows/sheets-rag-sync-workflow";
@@ -12,7 +7,7 @@ import { sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow } from "../work
 export const sheetsAgent = new Agent({
 	id: "sheets-agent",
 	name: "Sheets Agent",
- 	instructions: `You are a helpful Google Sheets assistant.
+	instructions: `You are a helpful Google Sheets assistant.
 
 Your job is to help users inspect and edit spreadsheet data safely.
 
@@ -43,39 +38,44 @@ Response style:
 - Be concise and structured.
 - If a tool fails, explain likely cause and next fix step (for example: sharing permissions or wrong range).`,
 	model: "openai/gpt-4o",
-    tools:{
-      getSheetTool,
-      readSheetTool,
-      updateSheetTool,
-      indexSheetRagTool,
-      querySheetRagTool,
-    },
-		workflows: {
-			sheetGetAndIndexWorkflow,
-			sheetUpdateAndReindexWorkflow,
+	defaultOptions: {
+		modelSettings: {
+			temperature: 0.2,
 		},
-		scorers: {
-			sheetsCompleteness: {
-				scorer: sheetsScorers.sheetsCompletenessScorer,
-				sampling: {
-					type: "ratio",
-					rate: 1,
-				},
-			},
-			sheetsRequestHandling: {
-				scorer: sheetsScorers.sheetsRequestHandlingScorer,
-				sampling: {
-					type: "ratio",
-					rate: 1,
-				},
-			},
-			sheetsUpdateSafety: {
-				scorer: sheetsScorers.sheetsUpdateSafetyScorer,
-				sampling: {
-					type: "ratio",
-					rate: 1,
-				},
+	},
+	tools: {
+		getSheetTool,
+		readSheetTool,
+		updateSheetTool,
+		indexSheetRagTool,
+		querySheetRagTool,
+	},
+	workflows: {
+		sheetGetAndIndexWorkflow,
+		sheetUpdateAndReindexWorkflow,
+	},
+	scorers: {
+		sheetsCompleteness: {
+			scorer: sheetsScorers.sheetsCompletenessScorer,
+			sampling: {
+				type: "ratio",
+				rate: 1,
 			},
 		},
-    memory: new Memory(),
+		sheetsRequestHandling: {
+			scorer: sheetsScorers.sheetsRequestHandlingScorer,
+			sampling: {
+				type: "ratio",
+				rate: 1,
+			},
+		},
+		sheetsUpdateSafety: {
+			scorer: sheetsScorers.sheetsUpdateSafetyScorer,
+			sampling: {
+				type: "ratio",
+				rate: 1,
+			},
+		},
+	},
+	memory: new Memory(),
 });

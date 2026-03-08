@@ -2,6 +2,7 @@ import { Agent } from '@mastra/core/agent';
 import { Memory } from '@mastra/memory';
 import { productFinderAgent } from './product-finder-agent';
 import { productRecommenderAgent } from './product-recommender-agent';
+import { salesScorers } from '../../scorers/sales-scorer';
 
 export const salesAgent = new Agent({
   id: 'sales-agent',
@@ -47,11 +48,40 @@ When the customer wants to buy, delegate to the Product Recommender to handle th
 - Prices are in EGP (Egyptian Pounds).
 - If the Finder returns no results, suggest broadening the search criteria.`,
   model: 'openai/gpt-4o',
+  defaultOptions: {
+    modelSettings: {
+      temperature: 0.2,
+    },
+  },
+  
   agents: { productFinderAgent, productRecommenderAgent },
+  scorers: {
+    salesCompleteness: {
+      scorer: salesScorers.salesCompletenessScorer,
+      sampling: {
+        type: 'ratio',
+        rate: 1,
+      },
+    },
+    salesDiscoveryAndRecommendation: {
+      scorer: salesScorers.salesDiscoveryAndRecommendationScorer,
+      sampling: {
+        type: 'ratio',
+        rate: 1,
+      },
+    },
+    salesCartSafety: {
+      scorer: salesScorers.salesCartSafetyScorer,
+      sampling: {
+        type: 'ratio',
+        rate: 1,
+      },
+    },
+  },
   memory: new Memory({
     options: {
       observationalMemory: {
-        enabled: true,
+        enabled: false,
         model: 'openai/gpt-4o-mini',
       },
     },

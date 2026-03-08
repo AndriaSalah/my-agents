@@ -1,6 +1,5 @@
 import { Agent } from '@mastra/core/agent';
-import { queryCatalogRagTool } from '../tools/query-catalog-rag-tool';
-import { indexCatalogRagTool } from '../tools/index-catalog-rag-tool';
+import { queryCatalogRagTool, indexCatalogRagTool } from '../../tools/SalesAgentTools';
 
 export const productFinderAgent = new Agent({
   id: 'product-finder',
@@ -26,6 +25,11 @@ Reading results:
 
 Do not make up products. Only return what the catalog search provides.`,
   model: 'openai/gpt-4o-mini',
+  defaultOptions: {
+    modelSettings: {
+      temperature: 0.2,
+    },
+  },
   tools: {
     queryCatalogRagTool,
     indexCatalogRagTool,

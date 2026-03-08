@@ -1,6 +1,6 @@
 import { createStep, createWorkflow } from '@mastra/core/workflows';
 import { z } from 'zod';
-import { indexCatalogRagTool } from '../tools/index-catalog-rag-tool';
+import { indexCatalogRagTool } from '../tools/SalesAgentTools/index-catalog-rag-tool';
 
 const inputSchema = z.object({
   categoryFile: z
