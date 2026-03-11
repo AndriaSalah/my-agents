@@ -1,37 +1,35 @@
 
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
-import { LibSQLStore, LibSQLVector } from '@mastra/libsql';
+import { LibSQLStore } from '@mastra/libsql';
+import { QdrantVector } from '@mastra/qdrant';
 import { Observability, DefaultExporter, SensitiveDataFilter } from '@mastra/observability';
 import { weatherWorkflow } from './workflows/weather-workflow';
 
 import { weatherAgent } from './agents/weather-agent';
 import { salesAgent } from './agents/Sales-agent/sales-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
-import { sheetsAgent } from './agents/sheets-agent';
-import {
-  sheetsCompletenessScorer,
-  sheetsRequestHandlingScorer,
-  sheetsUpdateSafetyScorer,
-} from './scorers/sheets-scorer';
 import {
   salesCompletenessScorer,
   salesDiscoveryAndRecommendationScorer,
   salesCartSafetyScorer,
 } from './scorers/sales-scorer';
-import { sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow } from './workflows/sheets-rag-sync-workflow';
 import { catalogIndexWorkflow } from './workflows/catalog-index-workflow';
 
+const qdrantEndpoint = process.env.QDRANT_ENDPOINT;
+const qdrantApiKey = process.env.QDRANT_API_KEY;
+
+if (!qdrantEndpoint) {
+  throw new Error('Missing QDRANT_ENDPOINT. Set it in .env to use Qdrant for sales catalog vectors.');
+}
+
 export const mastra = new Mastra({  
-  workflows: { weatherWorkflow, sheetGetAndIndexWorkflow, sheetUpdateAndReindexWorkflow, catalogIndexWorkflow },
-  agents: { weatherAgent, sheetsAgent, salesAgent  },
+  workflows: { weatherWorkflow, catalogIndexWorkflow },
+  agents: { weatherAgent, salesAgent },
   scorers: {
     toolCallAppropriatenessScorer,
     completenessScorer,
     translationScorer,
-    sheetsCompletenessScorer,
-    sheetsRequestHandlingScorer,
-    sheetsUpdateSafetyScorer,
     salesCompletenessScorer,
     salesDiscoveryAndRecommendationScorer,
     salesCartSafetyScorer,
@@ -42,13 +40,10 @@ export const mastra = new Mastra({
     url: "file:./mastra.db",
   }),
   vectors: {
-    sheetVector: new LibSQLVector({
-      id: 'sheet-vector',
-      url: 'file:./mastra.db',
-    }),
-    catalogVector: new LibSQLVector({
+    catalogVector: new QdrantVector({
       id: 'catalog-vector',
-      url: 'file:./mastra.db',
+      url: qdrantEndpoint,
+      apiKey: qdrantApiKey,
     }),
   },
   logger: new PinoLogger({

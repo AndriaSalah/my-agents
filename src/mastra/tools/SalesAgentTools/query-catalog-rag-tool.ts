@@ -54,7 +54,7 @@ export const queryCatalogRagTool = createTool({
     });
 
     const normalizedMatches = results.map(result => ({
-      id: result.id,
+      id: String(result.id),
       score: result.score,
       productId: (result.metadata?.productId as string | undefined) ?? null,
       categoryName: (result.metadata?.categoryName as string | undefined) ?? null,

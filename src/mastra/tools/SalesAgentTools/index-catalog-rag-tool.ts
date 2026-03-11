@@ -80,9 +80,26 @@ export const indexCatalogRagTool = createTool({
       }
     }
 
+    // Qdrant Cloud may require payload indexes for metadata filtering.
+    // We create them when the underlying vector store supports it.
+    const maybeQdrant = vectorStore as {
+      createPayloadIndex?: (args: { indexName: string; fieldName: string; fieldSchema: 'keyword' }) => Promise<void>;
+    };
+    if (typeof maybeQdrant.createPayloadIndex === 'function') {
+      await maybeQdrant.createPayloadIndex({
+        indexName: CATALOG_VECTOR_INDEX,
+        fieldName: 'categoryName',
+        fieldSchema: 'keyword',
+      });
+      await maybeQdrant.createPayloadIndex({
+        indexName: CATALOG_VECTOR_INDEX,
+        fieldName: 'productId',
+        fieldSchema: 'keyword',
+      });
+    }
+
     await vectorStore.upsert({
       indexName: CATALOG_VECTOR_INDEX,
-      ids: allChunks.map(c => `product:${c.id}`),
       vectors: embeddings,
       metadata: allChunks.map(c => ({
         productId: c.id,

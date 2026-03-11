@@ -1,0 +1,152 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "serena": {
+      "type": "local",
+      "command": [
+        "uvx",
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena",
+        "start-mcp-server",
+        "--context",
+        "ide",
+        "--project",
+        "/home/andria/Desktop/fresh/smart-track-frontend"
+      ],
+      "enabled": true,
+      "timeout": 30000,
+      "environment": {}
+    },
+    
+    "filesystem": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/andria/Desktop/fresh/smart-track-frontend"
+      ],
+      "enabled": true,
+      "timeout": 60000
+    },
+    
+    "context7": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "context7-mcp-server"
+      ],
+      "enabled": true,
+      "timeout": 60000,
+      "environment": {
+        "CONTEXT7_PROJECT_ROOT": "/home/andria/Desktop/fresh/smart-track-frontend"
+      }
+    },
+    
+    "git": {
+      "type": "local",
+      "command": [
+        "uvx",
+        "mcp-server-git",
+        "--repository",
+        "/home/andria/Desktop/fresh/smart-track-frontend"
+      ],
+      "enabled": true,
+      "timeout": 60000
+    },
+    
+    "memory": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "enabled": false,
+      "timeout": 60000
+    },
+    
+    "mem0": {
+      "type": "local",
+      "command": [
+        "python3",
+        "/home/andria/Desktop/fresh/smart-track-frontend/mcp_servers/mem0_server/server.py"
+      ],
+      "enabled": false,
+      "timeout": 60000,
+      "environment": {
+        "OPENAI_API_KEY": ""
+      }
+    },
+    
+    "sequential-thinking": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "enabled": true,
+      "timeout": 60000
+    },
+    
+    "postgres": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:postgres@localhost:5432/smarttrack"
+      ],
+      "enabled": false,
+      "timeout": 10000,
+      "environment": {}
+    },
+    
+    "github": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "enabled": false,
+      "timeout": 10000,
+      "environment": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+
+    "gh_grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
+      "enabled": true,
+      "timeout": 10000
+    }
+  },
+  
+  "tools": {
+    "bash": true,
+    "read": true,
+    "write": true,
+    "edit": true,
+    "glob": true,
+    "grep": true,
+    "task": true,
+    "webfetch": true,
+    "todowrite": true,
+    "skill": true,
+    "mcp_oraios_serena_*": true,
+    "mcp_filesystem_*": true,
+    "mcp_context7_*": true,
+    "mcp_git_*": true,
+    "mcp_memory_*": false,
+    "mcp_mem0_*": false,
+    "mcp_sequential-thinking_*": true,
+    "mcp_postgres_*": false,
+    "mcp_github_*": false,
+    "gh_grep_*": true
+  }
+}
